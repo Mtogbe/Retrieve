@@ -1,8 +1,14 @@
 import json
 import os
+
 from flask import Flask, jsonify, request
 
+from ai import extract_resume_text, match_labs, chat, draft_email
+
+
 app = Flask(__name__)
+
+
 def load_labs():
     real_data = os.path.join("data", "labs.json")
     fake_data = os.path.join("data", "fake_labs.json")
@@ -17,6 +23,7 @@ def load_labs():
 
     return labs
 
+
 @app.route("/")
 def home():
     return "Retrieve backend is running!"
@@ -30,7 +37,9 @@ def lab_page(lab_id):
         if lab.get("id") == lab_id:
             return jsonify(lab)
 
-    return jsonify({"error": "Lab not found"}), 404
+    return jsonify({
+        "error": "Lab not found"
+    }), 404
 
 
 @app.route("/match")
@@ -88,30 +97,135 @@ def get_lab(lab_id):
         if lab.get("id") == lab_id:
             return jsonify(lab)
 
-    return jsonify({"error": "Lab not found"}), 404
+    return jsonify({
+        "error": "Lab not found"
+    }), 404
 
 
 @app.route("/api/match", methods=["POST"])
 def api_match():
-    return jsonify({
-        "matches": [],
-        "resume_text": ""
-    })
+    resume_file = request.files.get("resume")
+    interests = request.form.get("interests", "").strip()
+
+    resume_bytes = b""
+    resume_text = ""
+
+    if resume_file and resume_file.filename:
+        if not resume_file.filename.lower().endswith(".pdf"):
+            return jsonify({
+                "error": "Resume must be a PDF"
+            }), 400
+
+        resume_bytes = resume_file.read()
+
+        if len(resume_bytes) > 5 * 1024 * 1024:
+            return jsonify({
+                "error": "Resume must be smaller than 5 MB"
+            }), 400
+
+    if not resume_bytes and not interests:
+        return jsonify({
+            "error": "Please provide a resume or interests"
+        }), 400
+
+    try:
+        if resume_bytes:
+            resume_text = extract_resume_text(resume_bytes)
+
+        labs = load_labs()
+
+        matches = match_labs(
+            labs,
+            resume_text,
+            interests
+        )
+
+        return jsonify({
+            "matches": matches,
+            "resume_text": resume_text
+        })
+
+    except Exception as e:
+        print("api_match failed:", e)
+
+        return jsonify({
+            "error": "Unable to generate matches"
+        }), 500
 
 
 @app.route("/api/chat", methods=["POST"])
 def api_chat():
-    return jsonify({
-        "reply": "Chat is not connected yet.",
-        "lab_ids": []
-    })
+    data = request.get_json(silent=True) or {}
+
+    message = data.get("message", "").strip()
+    history = data.get("history", [])
+
+    if not message:
+        return jsonify({
+            "error": "Message is required"
+        }), 400
+
+    try:
+        labs = load_labs()
+
+        result = chat(
+            labs,
+            message,
+            history
+        )
+
+        return jsonify(result)
+
+    except Exception as e:
+        print("api_chat failed:", e)
+
+        return jsonify({
+            "error": "Unable to generate chat response"
+        }), 500
 
 
 @app.route("/api/email", methods=["POST"])
 def api_email():
-    return jsonify({
-        "draft": "Email drafting is not connected yet."
-    })
+    data = request.get_json(silent=True) or {}
+
+    lab_id = data.get("lab_id", "").strip()
+    resume_text = data.get("resume_text", "").strip()
+
+    if not lab_id:
+        return jsonify({
+            "error": "Lab ID is required"
+        }), 400
+
+    labs = load_labs()
+
+    lab = None
+
+    for current_lab in labs:
+        if current_lab.get("id") == lab_id:
+            lab = current_lab
+            break
+
+    if lab is None:
+        return jsonify({
+            "error": "Lab not found"
+        }), 404
+
+    try:
+        draft = draft_email(
+            lab,
+            resume_text
+        )
+
+        return jsonify({
+            "draft": draft
+        })
+
+    except Exception as e:
+        print("api_email failed:", e)
+
+        return jsonify({
+            "error": "Unable to generate email draft"
+        }), 500
 
 
 if __name__ == "__main__":
