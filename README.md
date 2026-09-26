@@ -1,5 +1,5 @@
 # Retrieve
-hello ffjfff
+
 Find UMBC research labs that fit you.
 
 Built at hackUMBC 2026.
