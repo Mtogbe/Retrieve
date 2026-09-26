@@ -43,7 +43,7 @@ retrieve/
 
 1. Clone the repo.
 ```
-git clone https://github.com/YOUR-USERNAME/retrieve.git
+git clone https://github.com/Mtogbe/retrieve.git
 cd retrieve
 ```
 
@@ -108,3 +108,4 @@ Every lab is a JSON record with an id, name, department, research areas, and sou
 - Professors can post open positions
 - Student profiles and saved labs
 - Automatic data refresh from department pages
+
