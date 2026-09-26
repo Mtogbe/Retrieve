@@ -1,0 +1,87 @@
+[
+  {
+    "id": "cs-001",
+    "name": "Human-AI Interaction Lab",
+    "pi_name": "Dr. Alice Chen",
+    "department": "Computer Science",
+    "research_areas": ["machine learning", "human-computer interaction"],
+    "description": "This lab studies how people and AI systems collaborate on complex tasks. Recent work focuses on trust calibration in AI-assisted decision making.",
+    "website": "https://example.edu/haii-lab",
+    "contact_email": "achen@umbc.edu",
+    "accepting_students": "yes",
+    "source_url": "https://cs.umbc.edu/haii-lab",
+    "last_checked": "2026-09-26"
+  },
+  {
+    "id": "cs-002",
+    "name": "Network Security Research Group",
+    "department": "Computer Science",
+    "research_areas": ["security", "networks"],
+    "description": "Focuses on detecting intrusions in large-scale networks using anomaly detection techniques.",
+    "source_url": "https://cs.umbc.edu/netsec-group",
+    "accepting_students": "unknown"
+  },
+  {
+    "id": "is-001",
+    "name": "Data Systems and Analytics Lab",
+    "pi_name": "Dr. Priya Nair",
+    "department": "Information Systems",
+    "research_areas": ["data engineering", "databases"],
+    "description": "Builds tools for cleaning and integrating messy real-world datasets at scale.",
+    "contact_email": "pnair@umbc.edu",
+    "accepting_students": "yes",
+    "source_url": "https://is.umbc.edu/ds-analytics"
+  },
+  {
+    "id": "math-001",
+    "name": "Applied Probability Lab",
+    "pi_name": "Dr. Samuel Okafor",
+    "department": "Mathematics and Statistics",
+    "research_areas": ["statistics", "probability"],
+    "website": "https://example.edu/applied-prob",
+    "source_url": "https://math.umbc.edu/applied-prob",
+    "accepting_students": "no"
+  },
+  {
+    "id": "eng-001",
+    "name": "Robotics and Autonomy Lab",
+    "pi_name": "Dr. Maria Lopez",
+    "department": "Mechanical Engineering",
+    "research_areas": ["robotics", "controls"],
+    "description": "Designs autonomous ground robots for search-and-rescue scenarios.",
+    "website": "https://example.edu/robotics-lab",
+    "contact_email": "mlopez@umbc.edu",
+    "source_url": "https://eng.umbc.edu/robotics-lab"
+  },
+  {
+    "id": "bio-001",
+    "name": "Molecular Genetics Lab",
+    "pi_name": "Dr. James Whitfield",
+    "department": "Biological Sciences",
+    "research_areas": ["genetics", "molecular biology"],
+    "description": "Studies gene regulation in yeast as a model for understanding cellular stress responses.",
+    "contact_email": "jwhitfield@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "https://biology.umbc.edu/genetics-lab"
+  },
+  {
+    "id": "chem-001",
+    "name": "Green Chemistry Lab",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": ["chemistry", "sustainability"],
+    "source_url": "https://chem.umbc.edu/green-chem-lab"
+  },
+  {
+    "id": "phys-001",
+    "name": "Computational Astrophysics Group",
+    "pi_name": "Dr. Elena Petrova",
+    "department": "Physics",
+    "research_areas": ["astrophysics", "computational modeling", "climate"],
+    "description": "Simulates stellar formation using large-scale computational models on HPC clusters.",
+    "website": "https://example.edu/astro-group",
+    "contact_email": "epetrova@umbc.edu",
+    "accepting_students": "yes",
+    "source_url": "https://physics.umbc.edu/astro-group",
+    "last_checked": "2026-09-20"
+  }
+]
