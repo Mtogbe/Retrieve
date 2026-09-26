@@ -20,3 +20,8 @@ astrophysics
 climate
 materials science
 bioinformatics
+manufacturing
+computer vision
+graphics
+photonics
+signal processing
