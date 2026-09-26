@@ -2,7 +2,10 @@ import glob
 import json
 import re
 import sys
+import time
 import ai
+
+start = time.time()
 
 # pick the data file, real labs by default
 path = sys.argv[1] if len(sys.argv) > 1 else "data/labs.json"
@@ -10,12 +13,36 @@ with open(path, encoding="utf-8") as f:
     labs = json.load(f)
 by_id = {str(lab.get("id")): lab for lab in labs}
 print("loaded", len(labs), "labs from", path)
+print("match and email model:", ai.MODEL, "effort", ai.EFFORT)
+print("chat model:", ai.CHAT_MODEL)
+
+# tools never appear in lab data, so in a reason they must come from the resume
+TOOLS = ["pytorch", "tensorflow", "xgboost", "scikit-learn", "sql", "duckdb",
+         "tableau", "matplotlib", "pandas", "numpy", "java", "slurm"]
 
 
 def name_of(lab_id):
     # lab name, or a loud warning if the id is fake
     lab = by_id.get(lab_id)
     return lab.get("name") if lab else "??? UNKNOWN ID " + lab_id
+
+
+def check_tools(text, resume):
+    # warn about tools that are not on this resume
+    for tool in TOOLS:
+        if tool in text.lower() and tool not in resume.lower():
+            print("   WARNING", tool, "is not on this resume")
+
+
+def check_email(email, lab):
+    # warn about contact info, background claims, and wrong greeting
+    if re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", email) or re.search(r"\d{3}[\s.-]?\d{3}[\s.-]?\d{4}", email):
+        print("WARNING contact info found in email")
+    if re.search(r"\b(align\w*|fits?|match\w*) with (my|areas|what i)", email.lower()):
+        print("WARNING email claims something about the student's background")
+    expected = ai._greeting(lab)
+    if expected not in email:
+        print("WARNING greeting should be", expected)
 
 
 # ===== data check =====
@@ -52,16 +79,16 @@ for lab in labs:
         seen_sites[site] = lab_id
 print(problems, "problems found")
 
-# ===== resume =====
+# ===== resumes =====
 print("\n===== extract_resume_text =====")
-pdfs = sorted(glob.glob("test_resumes/*.pdf"))
-resume = ""
-if pdfs:
-    with open(pdfs[0], "rb") as f:
-        resume = ai.extract_resume_text(f.read())
-    print(pdfs[0], len(resume), "chars")
-else:
-    print("no pdf in test_resumes, using empty resume")
+resumes = []
+for pdf in sorted(glob.glob("test_resumes/*.pdf")):
+    with open(pdf, "rb") as f:
+        text = ai.extract_resume_text(f.read())
+    print(pdf, len(text), "chars")
+    resumes.append((pdf, text))
+if not resumes:
+    print("no pdf in test_resumes")
 
 # ===== filter =====
 print("\n===== filter_by_interests =====")
@@ -71,20 +98,23 @@ for q in ["machine learning", "robotics", "security", "quantum", "cooking", ""]:
 
 # ===== match =====
 print("\n===== match_labs =====")
-first_match = None
-for title, res, interests in [
-    ("resume + interests", resume, "machine learning and data"),
-    ("interests only", "", "brain computer interfaces"),
-]:
-    print("\n--", title)
-    matches = ai.match_labs(labs, res, interests)
+first_matches = {}
+for pdf, text in resumes:
+    print("\n-- resume + interests:", pdf)
+    matches = ai.match_labs(labs, text, "machine learning and data")
     for m in matches:
         print("-", name_of(m["lab_id"]))
         print("  ", m["reason"])
+        check_tools(m["reason"], text)
     if not matches:
         print("(no matches)")
-    if matches and first_match is None:
-        first_match = matches[0]["lab_id"]
+    else:
+        first_matches[pdf] = matches[0]["lab_id"]
+
+print("\n-- interests only: brain computer interfaces")
+for m in ai.match_labs(labs, "", "brain computer interfaces"):
+    print("-", name_of(m["lab_id"]))
+    print("  ", m["reason"])
 
 # ===== chat =====
 print("\n===== chat =====")
@@ -101,12 +131,20 @@ for q in [
 
 # ===== email =====
 print("\n===== draft_email =====")
-lab_id = first_match or str(labs[0].get("id"))
-for title, res in [("with resume", resume), ("no resume", "")]:
-    print("\n--", title, "for", name_of(lab_id))
-    email = ai.draft_email(by_id[lab_id], res)
+for pdf, text in resumes:
+    lab_id = first_matches.get(pdf, str(labs[0].get("id")))
+    print("\n-- with resume", pdf, "for", name_of(lab_id))
+    email = ai.draft_email(by_id[lab_id], text)
     print(email)
     print("-- words:", len(email.split()))
-    # contact info should never make it into the email
-    if re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", email) or re.search(r"\d{3}[\s.-]?\d{3}[\s.-]?\d{4}", email):
-        print("WARNING contact info found in email")
+    check_email(email, by_id[lab_id])
+    check_tools(email, text)
+
+lab_id = str(labs[0].get("id"))
+print("\n-- no resume for", name_of(lab_id))
+email = ai.draft_email(by_id[lab_id], "")
+print(email)
+print("-- words:", len(email.split()))
+check_email(email, by_id[lab_id])
+
+print("\ntotal time:", round(time.time() - start, 1), "seconds")
