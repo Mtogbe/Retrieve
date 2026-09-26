@@ -1,6 +1,6 @@
 # OS cruft
 Thumbs.db
-
+test_resumes/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
