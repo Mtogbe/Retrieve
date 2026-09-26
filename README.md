@@ -43,7 +43,7 @@ retrieve/
 
 1. Clone the repo.
 ```
-git clone https://github.com/YOUR-USERNAME/retrieve.git
+git clone https://github.com/Mtogbe/retrieve.git
 cd retrieve
 ```
 
