@@ -108,3 +108,4 @@ Every lab is a JSON record with an id, name, department, research areas, and sou
 - Professors can post open positions
 - Student profiles and saved labs
 - Automatic data refresh from department pages
+
