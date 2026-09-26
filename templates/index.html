@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Retrieve: find a UMBC research lab{% endblock %}
+
+{% block content %}
+<div id="search-page">
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Find a lab doing the research you care about.</h1>
+      <p class="hero-sub">Search UMBC research labs by topic, professor, or department.</p>
+
+      <div class="search-row">
+        <label for="search-input" class="visually-hidden">Search labs</label>
+        <input id="search-input" type="search" class="form-control search-input"
+               placeholder="Try machine learning, climate, or public health" autocomplete="off">
+
+        <label for="department-select" class="visually-hidden">Department</label>
+        <select id="department-select" class="form-select dept-select">
+          <option value="">All departments</option>
+        </select>
+      </div>
+
+      <p class="hero-alt">Have a resume? <a href="/match">Get matched to labs</a></p>
+    </div>
+  </section>
+
+  <section class="container py-4">
+    <div id="area-tags" class="area-tags" aria-label="Filter by research area"></div>
+    <div class="results-bar">
+      <div id="result-count" class="text-secondary" aria-live="polite"></div>
+      <div id="area-filter" class="area-filter d-none"></div>
+    </div>
+    <ul id="results" class="lab-list"></ul>
+  </section>
+</div>
+{% endblock %}
