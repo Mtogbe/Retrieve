@@ -3,8 +3,12 @@
     "id": "cs-001",
     "name": "CDL - Cyber Defense Lab",
     "pi_name": "Dr. Alan T. Sherman",
+    "website": "http://www.cisa.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["security", "networks"],
+    "research_areas": [
+      "security",
+      "networks"
+    ],
     "description": "The UMBC Cyber Defense Lab is a place where students, faculty, and affiliates carry out cybersecurity research. Current projects include high-integrity voting, protocol analysis, and cybersecurity education.",
     "contact_email": "sherman@umbc.edu",
     "accepting_students": "unknown",
@@ -15,8 +19,13 @@
     "id": "cs-002",
     "name": "CORAL - Cognition Robotics and Learning Lab",
     "pi_name": "Dr. Tim Oates",
+    "website": "http://coral-lab.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["machine learning", "robotics", "artificial intelligence"],
+    "research_areas": [
+      "machine learning",
+      "robotics",
+      "artificial intelligence"
+    ],
     "description": "Research related to machine and human intelligence, including machine vision, natural language processing, and reinforcement learning. Current projects include sample efficient reinforcement learning, safe artificial intelligence, graph neural networks for anomaly detection, and multi-modal learning from images and text.",
     "contact_email": "oates@umbc.edu",
     "accepting_students": "unknown",
@@ -27,8 +36,12 @@
     "id": "cs-003",
     "name": "CREM - Center of Research in Emergent Manufacturing",
     "pi_name": "Nilanjan Banerjee",
+    "website": "http://coral-lab.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["manufacturing", "security"],
+    "research_areas": [
+      "manufacturing",
+      "security"
+    ],
     "description": "Research in operational technology cybersecurity, medical devices, training and workforce development, and AI-enabled digital engineering tools. Current projects include a multi-cloud data sharing platform, 2D-3D engineering design conversion, AI-designed microfluidic systems, and GRC compliance tools for OT environments.",
     "contact_email": "nilanb@umbc.edu",
     "accepting_students": "unknown",
@@ -39,8 +52,12 @@
     "id": "cs-004",
     "name": "CVG - Cognitive Vision Group",
     "pi_name": "Dr. Tejas Gokhale",
+    "website": "https://www.tejasgokhale.com/",
     "department": "Computer Science",
-    "research_areas": ["computer vision", "machine learning"],
+    "research_areas": [
+      "computer vision",
+      "machine learning"
+    ],
     "description": "Works on the conceptual characterization of visual scenes, broadly in computational perception, learning, and reasoning. Areas of focus include visual understanding under incomplete information, generalizing to new domains, and interpreting and predicting behavior.",
     "contact_email": "gokhale@umbc.edu",
     "accepting_students": "unknown",
@@ -51,8 +68,13 @@
     "id": "cs-005",
     "name": "DAMS - Data Management and Semantics",
     "pi_name": "Dr. Roberto Yus",
+    "website": "https://damslabumbc.github.io/",
     "department": "Computer Science",
-    "research_areas": ["data engineering", "databases", "artificial intelligence"],
+    "research_areas": [
+      "data engineering",
+      "databases",
+      "artificial intelligence"
+    ],
     "description": "Focuses on Data Management, AI, Privacy, and the Internet of Things, bridging the gap between raw sensor data and semantically meaningful data. Builds prototypes and deploys them in the real world, incorporating semantics and privacy-awareness into system design.",
     "contact_email": "ryus@umbc.edu",
     "accepting_students": "unknown",
@@ -63,8 +85,12 @@
     "id": "cs-006",
     "name": "DREAM - Discovery, Research, and Experimental Analysis of Malware Lab",
     "pi_name": "Dr. Charles Nicholas",
+    "website": "https://umbc-dream-lab.github.io/",
     "department": "Computer Science",
-    "research_areas": ["machine learning", "security"],
+    "research_areas": [
+      "machine learning",
+      "security"
+    ],
     "description": "Applies machine learning to cybersecurity and malware analysis, using techniques like tensor decomposition and string similarity measures. Home to UMBC's cyber defense competition team, the CyberDawgs.",
     "contact_email": "nicholas@umbc.edu",
     "accepting_students": "unknown",
@@ -75,8 +101,12 @@
     "id": "cs-007",
     "name": "Ebiquity Research Laboratory",
     "pi_name": "Dr. Anupam Joshi",
+    "website": "https://ebiquity.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["artificial intelligence", "security"],
+    "research_areas": [
+      "artificial intelligence",
+      "security"
+    ],
     "description": "Builds intelligent systems in open, heterogeneous, dynamic, distributed environments. Research topics include the semantic web, information extraction, mobile computing, privacy, and security. Co-directed with Dr. Tim Finin (finin@umbc.edu).",
     "contact_email": "joshi@umbc.edu",
     "accepting_students": "unknown",
@@ -87,8 +117,12 @@
     "id": "cs-008",
     "name": "FSI - Future Sensing and Interaction Lab",
     "pi_name": "Dr. Dong Li",
+    "website": "https://leetton.github.io/fsi/",
     "department": "Computer Science",
-    "research_areas": ["human-computer interaction", "sustainability"],
+    "research_areas": [
+      "human-computer interaction",
+      "sustainability"
+    ],
     "description": "Advances mobile, wearable, and ubiquitous computing, designing sensing systems for healthcare, human-computer interaction, and environmental sustainability. Integrates mobile computing, wireless and wearable sensing, and AI for IoT.",
     "contact_email": "dli@umbc.edu",
     "accepting_students": "unknown",
@@ -99,8 +133,13 @@
     "id": "cs-009",
     "name": "IRAL - Interactive Robotics and Language Laboratory",
     "pi_name": "Dr. Cynthia Matuszek",
+    "website": "http://iral.cs.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["robotics", "artificial intelligence", "human-computer interaction"],
+    "research_areas": [
+      "robotics",
+      "artificial intelligence",
+      "human-computer interaction"
+    ],
     "description": "Research in robotics, human-robot interaction, and grounded language understanding, combining robotics, natural language processing, and statistical learning to build agents that interact robustly with non-specialists.",
     "contact_email": "cmat@umbc.edu",
     "accepting_students": "unknown",
@@ -111,8 +150,12 @@
     "id": "cs-010",
     "name": "KAI2 - Knowledge-infused AI and Inference",
     "pi_name": "Dr. Manas Gaur",
+    "website": "https://kai2.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["artificial intelligence", "machine learning"],
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
     "description": "Integrates AI with human knowledge represented as knowledge graphs, lexicons, process knowledge, and commonsense content, designing human-centered systems for sensitive domains. Works toward explainable, interpretable, and safe neuro-symbolic AI.",
     "contact_email": "manas@umbc.edu",
     "accepting_students": "unknown",
@@ -123,8 +166,12 @@
     "id": "cs-011",
     "name": "LARA Lab",
     "pi_name": "Dr. Lara J. Martin",
+    "website": "https://laramartin.net/lab/",
     "department": "Computer Science",
-    "research_areas": ["artificial intelligence", "human-computer interaction"],
+    "research_areas": [
+      "artificial intelligence",
+      "human-computer interaction"
+    ],
     "description": "Uses and improves language tools to build human-centered AI by studying how people communicate. Combines natural language processing, cognitive science, and AI to create agents that tell stories, play Dungeons & Dragons, and aid accessibility in human communication.",
     "contact_email": "laramar@umbc.edu",
     "accepting_students": "unknown",
@@ -135,8 +182,12 @@
     "id": "cs-012",
     "name": "Social Intelligence Lab",
     "pi_name": "Dr. Sanorita Dey",
+    "website": "https://userpages.cs.umbc.edu/sanorita/",
     "department": "Computer Science",
-    "research_areas": ["human-computer interaction", "artificial intelligence"],
+    "research_areas": [
+      "human-computer interaction",
+      "artificial intelligence"
+    ],
     "description": "Explores social computing topics, aiming to understand how people engage with complex systems and design user-centric platforms. Current focus areas include accessible health monitoring, equitable STEM education, and responsible use of large language models.",
     "contact_email": "sanorita@umbc.edu",
     "accepting_students": "unknown",
@@ -147,8 +198,12 @@
     "id": "cs-013",
     "name": "TAIC - Trustworthy and Intelligent Computing",
     "pi_name": "Keke Chen",
+    "website": "https://sites.google.com/view/kekechen/researchtaic-lab",
     "department": "Computer Science",
-    "research_areas": ["security", "artificial intelligence"],
+    "research_areas": [
+      "security",
+      "artificial intelligence"
+    ],
     "description": "Studies security and privacy issues with AI and collaborative systems, confidential computing, and applications of AI in science.",
     "contact_email": "kekechen@umbc.edu",
     "accepting_students": "unknown",
@@ -159,8 +214,12 @@
     "id": "cs-014",
     "name": "VANGOGH Lab",
     "pi_name": "Dr. Adam Bargteil",
+    "website": "https://vangogh.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["graphics", "machine learning"],
+    "research_areas": [
+      "graphics",
+      "machine learning"
+    ],
     "description": "Covers computer graphics and animation research, including real-time graphics hardware techniques, visual appearance, data visualization, physics-based animation, and machine learning for natural phenomena. Co-directed with Dr. Marc Olano (olano@umbc.edu).",
     "contact_email": "adamb@umbc.edu",
     "accepting_students": "unknown",
@@ -171,8 +230,12 @@
     "id": "cs-015",
     "name": "Vinjamuri Lab",
     "pi_name": "Dr. Ramana Vinjamuri",
+    "website": "http://vinjamurilab.cs.umbc.edu/",
     "department": "Computer Science",
-    "research_areas": ["neuroscience", "robotics"],
+    "research_areas": [
+      "neuroscience",
+      "robotics"
+    ],
     "description": "Studies Brain-Machine Interfaces (BMIs) that control upper-limb prostheses, focusing on how the brain controls complex hand movements. Includes graduate, undergraduate, and high school students, with publications and patents dating back to 2014.",
     "contact_email": "rvinjam1@umbc.edu",
     "accepting_students": "unknown",
@@ -183,8 +246,12 @@
     "id": "ce-001",
     "name": "ECLIPSE Cluster",
     "pi_name": "Dr. Nilanjan Banerjee",
+    "website": "https://eclipse.umbc.edu/",
     "department": "Computer Engineering",
-    "research_areas": ["robotics", "security"],
+    "research_areas": [
+      "robotics",
+      "security"
+    ],
     "description": "Comprises groups with shared laboratories, projects, and students: the Mobile, Pervasive, & Sensor Systems Laboratory led by Dr. Nilanjan Banerjee, and the Covail Analog & Digital Systems Research Laboratory, led by Dr. Ryan Robucci (robucci@umbc.edu).",
     "contact_email": "nilanb@umbc.edu",
     "accepting_students": "unknown",
@@ -195,8 +262,12 @@
     "id": "ce-002",
     "name": "ESNET - Embedded Systems and Networks Laboratory",
     "pi_name": "Dr. Mohamed Younis",
+    "website": "http://esnet.cs.umbc.edu/",
     "department": "Computer Engineering",
-    "research_areas": ["networks", "security"],
+    "research_areas": [
+      "networks",
+      "security"
+    ],
     "description": "Design and management of wireless sensor networks, network architecture and protocols, underwater communication, MAC and routing protocols, energy-aware system design, secure communication, fault tolerance, and topology management.",
     "contact_email": "younis@umbc.edu",
     "accepting_students": "unknown",
@@ -207,8 +278,11 @@
     "id": "ce-003",
     "name": "SECRETS - SECure, REliable, and Trusted Systems",
     "pi_name": "Dr. Naghmeh Karimi",
+    "website": "https://userpages.cs.umbc.edu/nkarimi/secret_lab.htm",
     "department": "Computer Engineering",
-    "research_areas": ["security"],
+    "research_areas": [
+      "security"
+    ],
     "description": "Focuses on the design, security, trustworthiness, reliability, and testability of electronic chips, including hardware security, fault tolerance, machine learning for security, and lightweight authentication for IoT and medical devices.",
     "contact_email": "nkarimi@umbc.edu",
     "accepting_students": "unknown",
@@ -219,8 +293,12 @@
     "id": "ce-004",
     "name": "VLSI-SOC Group",
     "pi_name": "Dr. Riadul Islam",
+    "website": "https://sites.google.com/view/umbc-vlsi-soc/home",
     "department": "Computer Engineering",
-    "research_areas": ["computational modeling", "security"],
+    "research_areas": [
+      "computational modeling",
+      "security"
+    ],
     "description": "Research areas include Electronic Design and Automation, brain-inspired computing, neural network architecture exploration, autonomous driving and CAN security, mixed-signal CMOS ICs/SOCs, and CAD tools for microprocessor and FPGA design.",
     "contact_email": "riaduli@umbc.edu",
     "accepting_students": "unknown",
@@ -231,8 +309,12 @@
     "id": "ee-001",
     "name": "CASPR - Center for Advanced Studies in Photonics Research",
     "pi_name": "Dr. Anthony Johnson",
+    "website": "http://www.umbc.edu/caspr/",
     "department": "Electrical Engineering",
-    "research_areas": ["photonics", "materials science"],
+    "research_areas": [
+      "photonics",
+      "materials science"
+    ],
     "description": "Advanced photonics research and technology development in optical communications, optical sensing and devices, nanophotonics, biophotonics, and quantum optics.",
     "contact_email": "amj@umbc.edu",
     "accepting_students": "unknown",
@@ -243,8 +325,12 @@
     "id": "ee-002",
     "name": "Choa's Lab - Brain and Nanotech Research",
     "pi_name": "Dr. Fow-Sen Choa",
+    "website": "https://blogs.cs.umbc.edu/choalab/",
     "department": "Electrical Engineering",
-    "research_areas": ["neuroscience", "materials science"],
+    "research_areas": [
+      "neuroscience",
+      "materials science"
+    ],
     "description": "Develops transcranial magnetic stimulation coils for brain stimulation, studies brain dynamics via EEG and fMRI, and builds neural network architectures. Also researches photonic and nano-materials, including single photon detectors, tunable lasers, and neuromorphic computing devices for AI chips.",
     "contact_email": "choa@umbc.edu",
     "accepting_students": "unknown",
@@ -255,8 +341,12 @@
     "id": "ee-003",
     "name": "Computational Photonics Laboratory",
     "pi_name": "Dr. Curtis Menyuk",
+    "website": "http://www.photonics.umbc.edu/",
     "department": "Electrical Engineering",
-    "research_areas": ["photonics", "computational modeling"],
+    "research_areas": [
+      "photonics",
+      "computational modeling"
+    ],
     "description": "Computational and theoretical studies of nonlinear optics, RF photonics, and frequency combs, including soliton generation, supercontinuum generation, and machine learning to optimize photonic devices and systems. Assistant Director: Dr. Ergun Simsek (simsek@umbc.edu).",
     "contact_email": "menyuk@umbc.edu",
     "accepting_students": "unknown",
@@ -267,8 +357,12 @@
     "id": "ee-004",
     "name": "MLSP-Lab - Machine Learning for Signal Processing Laboratory",
     "pi_name": "Dr. Tulay Adali",
+    "website": "http://mlsp.umbc.edu/",
     "department": "Electrical Engineering",
-    "research_areas": ["machine learning", "signal processing"],
+    "research_areas": [
+      "machine learning",
+      "signal processing"
+    ],
     "description": "Develops theory and tools for processing signals across a range of applications, combining statistical and adaptive signal processing with machine learning, focused especially on medical image analysis and fusion.",
     "contact_email": "adali@umbc.edu",
     "accepting_students": "unknown",
@@ -279,8 +373,12 @@
     "id": "ee-005",
     "name": "Remote Sensing Signal and Image Processing Laboratory",
     "pi_name": "Dr. Chein-i Chang",
+    "website": "https://umbc.atlassian.net/wiki/spaces/rssipl/overview",
     "department": "Electrical Engineering",
-    "research_areas": ["computational modeling", "machine learning"],
+    "research_areas": [
+      "computational modeling",
+      "machine learning"
+    ],
     "description": "Research on remote sensing, signal and image processing, specifically hyperspectral imaging, medical imaging, and automatic target recognition.",
     "contact_email": "cchang@umbc.edu",
     "accepting_students": "unknown",
