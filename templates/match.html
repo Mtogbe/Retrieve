@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Retrieve: get matched to labs{% endblock %}
+
+{% block content %}
+<div id="match-page">
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Get matched to labs.</h1>
+      <p class="hero-sub">Upload your resume, add your interests, or both. We'll suggest labs and explain why each one fits you.</p>
+
+      <form id="match-form" class="match-form" novalidate>
+        <div class="mb-3">
+          <label for="resume-input" class="form-label">Resume (PDF, optional)</label>
+          <input id="resume-input" type="file" accept="application/pdf" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="interests-input" class="form-label">Your interests (optional)</label>
+          <textarea id="interests-input" rows="3" class="form-control"
+                    placeholder="For example: climate data, machine learning, public health"></textarea>
+        </div>
+        <button id="match-button" type="submit" class="btn btn-retrieve btn-lg">Retrieve matches</button>
+        <div id="match-error" class="match-error d-none" role="alert"></div>
+      </form>
+    </div>
+  </section>
+
+  <section class="container py-4">
+    <div id="match-loading" class="match-loading d-none">
+      <div class="spinner-border" aria-hidden="true"></div>
+      <span>Reading your resume and finding labs...</span>
+    </div>
+    <h2 id="match-count" class="match-count"></h2>
+    <ul id="match-results" class="lab-list"></ul>
+  </section>
+
+  <dialog id="email-dialog" class="email-dialog" aria-labelledby="email-title">
+    <div class="email-dialog-body">
+      <div class="email-dialog-head">
+        <h2 id="email-title">Apply by email: your draft</h2>
+        <button type="button" id="email-close" class="btn-close" aria-label="Close"></button>
+      </div>
+      <p id="email-to" class="email-to"></p>
+
+      <div id="email-loading" class="match-loading">
+        <div class="spinner-border" aria-hidden="true"></div>
+        <span>Writing your draft...</span>
+      </div>
+      <div id="email-error" class="match-error d-none" role="alert"></div>
+      <textarea id="email-draft" class="form-control email-draft d-none" rows="12"></textarea>
+
+      <p class="email-note">Read it over and make it yours. Nothing is sent until you send it yourself.</p>
+      <div class="email-actions">
+        <button type="button" id="email-copy" class="btn btn-retrieve" disabled>Copy email</button>
+      </div>
+    </div>
+  </dialog>
+</div>
+{% endblock %}

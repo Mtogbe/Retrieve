@@ -44,6 +44,25 @@ h1, h2, h3, .brand {
 }
 .nav-link-r:hover, .nav-link-r:focus-visible { color: var(--gold); }
 
+/* Nav tabs from the wireframe */
+.nav-tab {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #555;
+  border-radius: 0.5rem;
+  padding: 0.35rem 1rem;
+}
+
+.nav-tab:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.nav-tab.active {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
 /* Hero with the search bar */
 .hero {
   background: #000;
@@ -90,7 +109,7 @@ h1, h2, h3, .brand {
 
 .search-input:focus, .dept-select:focus {
   border-color: var(--gold);
-  box-shadow: 0 0 0 4px rgba(253, 181, 21, 0.45);
+  box-shadow: 0 0 0 4px rgba(226, 191, 74, 0.45);
 }
 
 .hero-alt { margin: 1.25rem 0 0; color: #cfcfcf; }
@@ -121,6 +140,14 @@ h1, h2, h3, .brand {
   padding: 0.1rem 0.6rem;
   margin-left: 0.4rem;
   font-size: 0.8rem;
+}
+
+/* Area tags above the results */
+.area-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
 }
 
 .lab-list { list-style: none; padding: 0; margin: 0; }
@@ -159,12 +186,16 @@ h1, h2, h3, .brand {
   line-height: 1.55;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
+.lab-email { font-size: 0.9rem; }
+
 .lab-areas { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 
+/* Clickable tags (labs page) */
 .area-chip {
   border: 1px solid var(--line);
   background: var(--mist);
@@ -176,6 +207,20 @@ h1, h2, h3, .brand {
 .area-chip:hover, .area-chip:focus-visible {
   background: var(--gold);
   border-color: var(--gold);
+}
+.area-chip.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  font-weight: 600;
+}
+
+/* Plain tags (match page, not clickable) */
+.lab-tag {
+  border: 1px solid var(--line);
+  background: var(--mist);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.85rem;
 }
 
 .lab-side {
@@ -221,47 +266,168 @@ h1, h2, h3, .brand {
 
 .empty-state { padding: 3rem 0; color: var(--gray); }
 
+/* Match page */
+.match-form { max-width: 640px; }
+.match-form .form-label { color: #fff; font-weight: 600; }
+
+.match-error {
+  margin-top: 1rem;
+  background: #FFF1F1;
+  color: #9B1C1C;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+
+.match-loading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 2rem 0;
+  color: var(--gray);
+}
+.match-loading .spinner-border { color: var(--gold-deep); }
+
+.match-count { font-size: 1.75rem; font-weight: 800; margin-bottom: 0.5rem; }
+
+.match-reason {
+  background: #FFF6DD;
+  border-left: 4px solid var(--gold);
+  border-radius: 0.25rem;
+  padding: 0.6rem 0.9rem;
+  margin: 0.6rem 0;
+}
+
+/* Email draft popup */
+.email-dialog {
+  width: min(640px, 92vw);
+  border: 0;
+  border-radius: 0.75rem;
+  padding: 0;
+}
+.email-dialog::backdrop { background: rgba(0, 0, 0, 0.6); }
+
+.email-dialog-body { padding: 1.5rem; }
+
+.email-dialog-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.email-dialog-head h2 { font-size: 1.4rem; font-weight: 800; margin: 0; }
+
+.email-to { color: var(--gray); margin: 0.4rem 0 1rem; }
+.email-draft { font-size: 0.95rem; line-height: 1.5; }
+.email-note { color: var(--gray); font-size: 0.85rem; margin: 0.75rem 0; }
+.email-actions { display: flex; justify-content: flex-end; }
+
+/* Floating chat */
+.chat-toggle {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 1000;
+  background: var(--gold);
+  color: #000;
+  font-weight: 700;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.8rem 1.3rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+.chat-toggle:hover { background: var(--gold-deep); }
+
+.chat-panel {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 5rem;
+  z-index: 1000;
+  width: min(380px, calc(100vw - 2.5rem));
+  height: min(520px, calc(100vh - 7rem));
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.chat-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 0.75rem 1rem;
+}
+.chat-head h2 { font-size: 1.1rem; font-weight: 800; margin: 0; color: var(--gold); }
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--mist);
+}
+
+.chat-msg {
+  max-width: 85%;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+}
+.chat-user {
+  align-self: flex-end;
+  background: var(--gold);
+  color: #000;
+  border-bottom-right-radius: 0.25rem;
+}
+.chat-ai {
+  align-self: flex-start;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-bottom-left-radius: 0.25rem;
+}
+.chat-thinking { color: var(--gray); font-style: italic; }
+.chat-error { background: #FFF1F1; color: #9B1C1C; border-color: #F5C2C2; }
+
+.chat-labs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  white-space: normal;
+}
+.chat-lab-link {
+  font-size: 0.85rem;
+  background: var(--mist);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+.chat-lab-link:hover { background: var(--gold); border-color: var(--gold); }
+
+.chat-form {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-top: 1px solid var(--line);
+}
+
+/* Footer */
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--gray);
   margin-top: 3rem;
 }
 
-/* Phones: stack each lab row */
+/* Phones: stack each lab row (keep this last so it wins) */
 @media (max-width: 640px) {
   .lab-row { flex-direction: column; gap: 0.75rem; }
   .lab-side { flex-direction: row; align-items: center; min-width: 0; }
-}
-
-/* Nav tabs from the wireframe */
-.nav-tab {
-  color: #fff;
-  text-decoration: none;
-  border: 2px solid #555;
-  border-radius: 0.5rem;
-  padding: 0.35rem 1rem;
-}
-
-.nav-tab:hover {
-  color: #fff;
-  border-color: #fff;
-}
-
-.nav-tab.active {
-  color: var(--gold);
-  border-color: var(--gold);
-}
-
-/* Area tags above the results */
-.area-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-bottom: 1rem;
-}
-
-.area-chip.active {
-  background: var(--gold);
-  border-color: var(--gold);
-  font-weight: 600;
 }
