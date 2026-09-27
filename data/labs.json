@@ -13,7 +13,10 @@
     "contact_email": "sherman@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Security",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-002",
@@ -30,13 +33,16 @@
     "contact_email": "oates@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Machine Learning",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-003",
     "name": "CREM - Center of Research in Emergent Manufacturing",
     "pi_name": "Nilanjan Banerjee",
-    "website": "https://www.cremcenter.com/",
+    "website": "http://coral-lab.umbc.edu/",
     "department": "Computer Science",
     "research_areas": [
       "manufacturing",
@@ -46,7 +52,10 @@
     "contact_email": "nilanb@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Manufacturing",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-004",
@@ -62,7 +71,10 @@
     "contact_email": "gokhale@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Computer Vision",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-005",
@@ -79,7 +91,10 @@
     "contact_email": "ryus@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Data Engineering",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-006",
@@ -95,7 +110,10 @@
     "contact_email": "nicholas@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Machine Learning",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-007",
@@ -111,7 +129,10 @@
     "contact_email": "joshi@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Artificial Intelligence",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-008",
@@ -127,7 +148,10 @@
     "contact_email": "dli@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Human-Computer Interaction",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-009",
@@ -144,7 +168,10 @@
     "contact_email": "cmat@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Robotics",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-010",
@@ -160,7 +187,10 @@
     "contact_email": "manas@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Artificial Intelligence",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-011",
@@ -176,7 +206,10 @@
     "contact_email": "laramar@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Artificial Intelligence",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-012",
@@ -192,7 +225,10 @@
     "contact_email": "sanorita@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Human-Computer Interaction",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-013",
@@ -208,7 +244,10 @@
     "contact_email": "kekechen@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Security",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-014",
@@ -224,7 +263,10 @@
     "contact_email": "adamb@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Graphics",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "cs-015",
@@ -240,7 +282,10 @@
     "contact_email": "rvinjam1@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "neuroscience",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ce-001",
@@ -256,7 +301,10 @@
     "contact_email": "nilanb@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Robotics",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ce-002",
@@ -272,7 +320,10 @@
     "contact_email": "younis@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Networks",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ce-003",
@@ -287,7 +338,10 @@
     "contact_email": "nkarimi@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Security",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ce-004",
@@ -303,7 +357,10 @@
     "contact_email": "riaduli@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Computational Modeling",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ee-001",
@@ -319,7 +376,10 @@
     "contact_email": "amj@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Photonics",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ee-002",
@@ -335,7 +395,10 @@
     "contact_email": "choa@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "neuroscience",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ee-003",
@@ -351,7 +414,10 @@
     "contact_email": "menyuk@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Photonics",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ee-004",
@@ -367,7 +433,10 @@
     "contact_email": "adali@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Machine Learning",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
   },
   {
     "id": "ee-005",
@@ -383,6 +452,2594 @@
     "contact_email": "cchang@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26"
+    "last_checked": "2026-09-26",
+    "research_program": "Computational Modeling",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-100",
+    "name": "Bieberich Research Group",
+    "pi_name": "Charles Bieberich",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "developmental biology",
+      "immunology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "bieberic@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-101",
+    "name": "Brewster Research Group",
+    "pi_name": "Rachel Brewster",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "developmental biology",
+      "immunology",
+      "molecular biology",
+      "genetics",
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "brewster@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-102",
+    "name": "Burns Research Group",
+    "pi_name": "Mercedes Burns",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "burnsm@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-103",
+    "name": "Chugh Research Group (AMB Lab)",
+    "pi_name": "Mayank Chugh",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "molecular biology",
+      "genetics",
+      "developmental biology",
+      "immunology"
+    ],
+    "description": "Director, Applied Molecular Biology (AMB) Program",
+    "contact_email": "machugh@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-104",
+    "name": "Elizondo Research Group",
+    "pi_name": "Diana Elizondo",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "developmental biology",
+      "immunology"
+    ],
+    "description": "not found",
+    "contact_email": "delizon1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "developmental biology / immunology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-105",
+    "name": "Farabaugh Research Group",
+    "pi_name": "Philip Farabaugh",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology",
+      "genetics",
+      "evolutionary biology"
+    ],
+    "description": "not found",
+    "contact_email": "farabaug@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology / genetics",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-106",
+    "name": "Freeland Research Group",
+    "pi_name": "Stephen Freeland",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology",
+      "computational biology"
+    ],
+    "description": "Director of INDS",
+    "contact_email": "freeland@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-107",
+    "name": "Gardner Research Group",
+    "pi_name": "Jeffrey Gardner",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "jgardner@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology / genetics",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-108",
+    "name": "Green Research Group",
+    "pi_name": "Erin Green",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology",
+      "genetics",
+      "cell biology"
+    ],
+    "description": "not found",
+    "contact_email": "egreen@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology / genetics",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-109",
+    "name": "Kann Research Group",
+    "pi_name": "Maricel Kann",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational biology"
+    ],
+    "description": "not found",
+    "contact_email": "mkann@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-110",
+    "name": "LeGates Research Group",
+    "pi_name": "Tara LeGates",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "neuroscience",
+      "cell biology"
+    ],
+    "description": "not found",
+    "contact_email": "tlegates@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "neuroscience",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-111",
+    "name": "Leips Research Group",
+    "pi_name": "Jeffery Leips",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "developmental biology",
+      "immunology",
+      "evolutionary biology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "leips@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "developmental biology / immunology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-112",
+    "name": "Lin Research Group",
+    "pi_name": "Weihong Lin",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "weihong@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "neuroscience",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-113",
+    "name": "Lobo Research Group",
+    "pi_name": "Daniel Lobo",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational biology",
+      "developmental biology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "lobo@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-114",
+    "name": "Lohr Research Group",
+    "pi_name": "Bernard Lohr",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology",
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "blohr@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-115",
+    "name": "Lu Research Group",
+    "pi_name": "Hua Lu",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology",
+      "genetics",
+      "plant biology"
+    ],
+    "description": "not found",
+    "contact_email": "hualu@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology / genetics",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-116",
+    "name": "Mendelson Research Group",
+    "pi_name": "Tamra Mendelson",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "tamram@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-117",
+    "name": "Miller Research Group",
+    "pi_name": "Stephen Miller",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "developmental biology",
+      "immunology",
+      "evolutionary biology",
+      "molecular biology",
+      "genetics",
+      "plant biology"
+    ],
+    "description": "Graduate Program Director",
+    "contact_email": "stmiller@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "developmental biology / immunology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-119",
+    "name": "Omland Research Group",
+    "pi_name": "Kevin Omland",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology"
+    ],
+    "description": "not found",
+    "contact_email": "omland@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-120",
+    "name": "Padmanabhan Research Group",
+    "pi_name": "Achuth Padmanabhan",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "developmental biology",
+      "immunology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "padmanabhan@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-121",
+    "name": "Robinson Research Group",
+    "pi_name": "Phyllis Robinson",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "molecular biology",
+      "genetics",
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "probinso@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-122",
+    "name": "Schreier Research Group",
+    "pi_name": "Harold Schreier",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "schreier@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology / genetics",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-123",
+    "name": "Starz Research Group",
+    "pi_name": "Michelle Starz-Gaiano",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "developmental biology",
+      "immunology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "Department Chair",
+    "contact_email": "starz@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-124",
+    "name": "Sutton Research Group",
+    "pi_name": "Laurie Sutton",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "molecular biology",
+      "genetics",
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "suttonl@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-125",
+    "name": "Vonhoff Research Group",
+    "pi_name": "Fernando Vonhoff",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "developmental biology",
+      "immunology",
+      "molecular biology",
+      "genetics",
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "fvonhoff@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-126",
+    "name": "Walker Research Group",
+    "pi_name": "Nykia Walker",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology",
+      "developmental biology",
+      "immunology",
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "not found",
+    "contact_email": "ndwalker@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-127",
+    "name": "Cronin Research Group",
+    "pi_name": "Thomas Cronin",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology",
+      "neuroscience"
+    ],
+    "description": "not found",
+    "contact_email": "cronin@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-128",
+    "name": "Lamas Lab",
+    "pi_name": "Zachary Lamas",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology"
+    ],
+    "description": "Visiting Researcher; honey bee biology and disease",
+    "contact_email": "zlamas1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-129",
+    "name": "Polymeric Biomaterials Lab",
+    "pi_name": "Jorge Almodovar",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biomedical engineering"
+    ],
+    "description": "Polymeric-based biomaterials for therapeutics, cell manufacturing, and tissue repair.",
+    "contact_email": "almodova@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biomedical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-130",
+    "name": "Blaney Lab",
+    "pi_name": "Lee Blaney",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "Fate/impact of pharmaceuticals in wastewater and environmental remediation.",
+    "contact_email": "blaney@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-131",
+    "name": "AMEE Lab",
+    "pi_name": "Özgür Çapraz",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "not found",
+    "contact_email": "capraz@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-132",
+    "name": "Frey Lab",
+    "pi_name": "Douglas Frey",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Bioprocess engineering, chromatographic separations of recombinant protein.",
+    "contact_email": "dfrey1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-133",
+    "name": "Garcia Lab",
+    "pi_name": "David Garcia",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Biochemical engineering, recombinant protein production.",
+    "contact_email": "dgarcia5@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-134",
+    "name": "Ghosh Lab",
+    "pi_name": "Upal Ghosh",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "Analysis and remediation of toxic pollutants in soils and sediments.",
+    "contact_email": "ughosh@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-135",
+    "name": "Hennigan Lab",
+    "pi_name": "Christopher Hennigan",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "Atmospheric chemistry and aerosol pollution processes.",
+    "contact_email": "hennigan@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-136",
+    "name": "JB Lab",
+    "pi_name": "Corine Jackman Burden",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biomedical engineering"
+    ],
+    "description": "Engineered platforms/systems biology for immune dysfunction in cancer and infectious disease.",
+    "contact_email": "corinej1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biomedical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-137",
+    "name": "ATOMS Lab (AI & Theory-Oriented Molecular Science)",
+    "pi_name": "Tyler Josephson",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "Molecular simulation and machine learning for chemistry.",
+    "contact_email": "tjo@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-138",
+    "name": "Marten Lab",
+    "pi_name": "Mark Marten",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Bioprocess engineering, systems biology of gene regulatory networks. Department Chair.",
+    "contact_email": "marten@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-139",
+    "name": "Rao Lab / CAST",
+    "pi_name": "Govind Rao",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Bioprocess engineering, sensor development; Director of Center for Advanced Sensor Technology (CAST).",
+    "contact_email": "grao@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-140",
+    "name": "Welty Lab / CUERE",
+    "pi_name": "Claire Welty",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "Groundwater-surface water hydrology, urban watershed processes; Director of CUERE.",
+    "contact_email": "weltyc@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-141",
+    "name": "Youth RISE: The Youth Resilience, Intergenerational Supports, and Engagement Lab",
+    "pi_name": "Janelle Billingsley",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "African American adolescent resilience and social-emotional development; intergenerational family support.",
+    "contact_email": "not found",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-142",
+    "name": "Family Adversity Lab",
+    "pi_name": "Molly Franz",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Effects of PTSD/trauma on family relationships; resilience among trauma survivors.",
+    "contact_email": "mfranz@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-143",
+    "name": "Child Development Lab",
+    "pi_name": "Karrie Godwin",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Executive functioning and attention regulation and their impact on learning.",
+    "contact_email": "kgodwin@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-144",
+    "name": "CACHE Lab (Cognition, Affect, and Cardiometabolic Health Lab)",
+    "pi_name": "Tasneem Khambaty",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Biopsychosocial factors in cardiometabolic disease risk, aging, and health disparities.",
+    "contact_email": "khambaty@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-145",
+    "name": "EQUIPS Lab",
+    "pi_name": "Pamela Rakhshan Rouhakhtar",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Validation/development of psychosis spectrum assessments.",
+    "contact_email": "Rakhshp1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-146",
+    "name": "UMBC Home Visiting Training Center",
+    "pi_name": "David Schultz",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Social development in infancy; early family interventions supporting families in poverty.",
+    "contact_email": "dschultz@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-147",
+    "name": "Children and Families, Schooling and Development Lab",
+    "pi_name": "Susan Sonnenschein",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Factors promoting academic success; children's math and literacy development.",
+    "contact_email": "sonnensc@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "lab-148",
+    "name": "ACED Lab (Affect, Cognition, & Emotional Disorders Lab)",
+    "pi_name": "Lira Yoon",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Interaction between cognition and emotion in emotional disorders.",
+    "contact_email": "lyoon@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "lab"
+  },
+  {
+    "id": "ind-001",
+    "name": "Gretchen Alicea-Gutierrez",
+    "pi_name": "Gretchen Alicea-Gutierrez",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology"
+    ],
+    "description": "not found",
+    "contact_email": "galicea@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-003",
+    "name": "David Eisenmann",
+    "pi_name": "David Eisenmann",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "developmental biology",
+      "immunology"
+    ],
+    "description": "not found",
+    "contact_email": "eisenman@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "developmental biology / immunology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-010",
+    "name": "Bustos, Mauricio",
+    "pi_name": "Bustos, Mauricio",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational biology"
+    ],
+    "description": "not found",
+    "contact_email": "bustos@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-011",
+    "name": "Tracy Smith",
+    "pi_name": "Tracy Smith",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology"
+    ],
+    "description": "Teaching Professor",
+    "contact_email": "tsmith6@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-014",
+    "name": "Ivan Erill",
+    "pi_name": "Ivan Erill",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational biology"
+    ],
+    "description": "Computational biology of bacterial gene regulation",
+    "contact_email": "erill@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-015",
+    "name": "Kathleen Hoffman",
+    "pi_name": "Kathleen Hoffman",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational modeling"
+    ],
+    "description": "Affiliate Professor, Biological Sciences; mathematical biology (Math & Stats)",
+    "contact_email": "khoffman@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational modeling",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-016",
+    "name": "Brad Peercy",
+    "pi_name": "Brad Peercy",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational modeling"
+    ],
+    "description": "Affiliate Professor, Biological Sciences; mathematical modeling of biological systems (Math & Stats)",
+    "contact_email": "bpeercy@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational modeling",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-017",
+    "name": "Govind Rao",
+    "pi_name": "Govind Rao",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Affiliate, Biological Sciences; biosensors/bioprocess monitoring (CBEE, Director of CAST)",
+    "contact_email": "grao@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-019",
+    "name": "Aaron Smith",
+    "pi_name": "Aaron Smith",
+    "website": "not found",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology"
+    ],
+    "description": "Bacterial iron metabolism/sensing in Pseudomonas aeruginosa; antibiotic-resistance mechanisms",
+    "contact_email": "smitha@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-027",
+    "name": "Lujie Karen Chen",
+    "pi_name": "Lujie Karen Chen",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning; Data Science; Health Informatics",
+    "contact_email": "lujiec@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-028",
+    "name": "James Foulds",
+    "pi_name": "James Foulds",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning",
+    "contact_email": "jfoulds@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-029",
+    "name": "Md Osman Gani",
+    "pi_name": "Md Osman Gani",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning; Data Science",
+    "contact_email": "mogani@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-030",
+    "name": "Karuna P Joshi",
+    "pi_name": "Karuna P Joshi",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning; Data Science; Health Informatics",
+    "contact_email": "kjoshi1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-031",
+    "name": "Patti Ordóñez",
+    "pi_name": "Patti Ordóñez",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning; Health Informatics",
+    "contact_email": "ordopa1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-032",
+    "name": "Shimei Pan",
+    "pi_name": "Shimei Pan",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning",
+    "contact_email": "shimei@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-033",
+    "name": "Sanjay Purushotham",
+    "pi_name": "Sanjay Purushotham",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning",
+    "contact_email": "psanjay@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-034",
+    "name": "Nirmalya Roy",
+    "pi_name": "Nirmalya Roy",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "AI and Machine Learning",
+    "contact_email": "nroy@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-035",
+    "name": "Zhiyuan Chen",
+    "pi_name": "Zhiyuan Chen",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science; Health Informatics",
+    "contact_email": "zhchen@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-036",
+    "name": "Aryya Gangopadhyay",
+    "pi_name": "Aryya Gangopadhyay",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science; Health Informatics",
+    "contact_email": "gangopad@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-037",
+    "name": "Vandana Janeja",
+    "pi_name": "Vandana Janeja",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science; Health Informatics",
+    "contact_email": "vjaneja@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-038",
+    "name": "George Karabatis",
+    "pi_name": "George Karabatis",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science",
+    "contact_email": "georgek@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-039",
+    "name": "Ida Ngambeki",
+    "pi_name": "Ida Ngambeki",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science",
+    "contact_email": "idan1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-040",
+    "name": "Jianwu Wang",
+    "pi_name": "Jianwu Wang",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science; Health Informatics",
+    "contact_email": "jianwu@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-041",
+    "name": "Ant Ozok",
+    "pi_name": "Ant Ozok",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "health informatics"
+    ],
+    "description": "Health Informatics; Software Engineering",
+    "contact_email": "ozok@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "health informatics",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-042",
+    "name": "Tera Reynolds",
+    "pi_name": "Tera Reynolds",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "health informatics"
+    ],
+    "description": "Health Informatics; Human-Centered Computing",
+    "contact_email": "reynoter@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "health informatics",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-043",
+    "name": "Ian Stockwell",
+    "pi_name": "Ian Stockwell",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "health informatics"
+    ],
+    "description": "Health Informatics",
+    "contact_email": "istock1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "health informatics",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-044",
+    "name": "Fiona Bell",
+    "pi_name": "Fiona Bell",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Human-Centered Computing",
+    "contact_email": "fiona.bell@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-045",
+    "name": "Foad Hamidi",
+    "pi_name": "Foad Hamidi",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Human-Centered Computing",
+    "contact_email": "foadhamidi@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-046",
+    "name": "Andrea Kleinsmith",
+    "pi_name": "Andrea Kleinsmith",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Human-Centered Computing",
+    "contact_email": "andreak@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-047",
+    "name": "Anita Komlodi",
+    "pi_name": "Anita Komlodi",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Human-Centered Computing",
+    "contact_email": "komlodi@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-048",
+    "name": "Yasmine Kotturi",
+    "pi_name": "Yasmine Kotturi",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Human-Centered Computing",
+    "contact_email": "kotturi@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-049",
+    "name": "Ravi Kuber",
+    "pi_name": "Ravi Kuber",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Human-Centered Computing",
+    "contact_email": "rkuber@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-050",
+    "name": "Mohammad Samarah",
+    "pi_name": "Mohammad Samarah",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "software engineering"
+    ],
+    "description": "Software Engineering",
+    "contact_email": "msamarah@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "software engineering",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-051",
+    "name": "Sreedevi Sampath",
+    "pi_name": "Sreedevi Sampath",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "software engineering"
+    ],
+    "description": "Software Engineering",
+    "contact_email": "sampath@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "software engineering",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-052",
+    "name": "Carolyn Seaman",
+    "pi_name": "Carolyn Seaman",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "software engineering"
+    ],
+    "description": "Software Engineering",
+    "contact_email": "cseaman@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "software engineering",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-053",
+    "name": "Tarannum Shaila Zaman",
+    "pi_name": "Tarannum Shaila Zaman",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "software engineering"
+    ],
+    "description": "Software Engineering",
+    "contact_email": "zamant@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "software engineering",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-054",
+    "name": "Lei Zhang",
+    "pi_name": "Lei Zhang",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "software engineering"
+    ],
+    "description": "Software Engineering",
+    "contact_email": "leizhang@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "software engineering",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-055",
+    "name": "Anuradha Ravi",
+    "pi_name": "Anuradha Ravi",
+    "website": "not found",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Data Science; Human-Centered Computing",
+    "contact_email": "not found",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-056",
+    "name": "John Borrero",
+    "pi_name": "John Borrero",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Behavioral applications to response allocation in college undergraduates, persons with intellectual disabilities, and young children.",
+    "contact_email": "jborrero@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-057",
+    "name": "Mirela Cengher",
+    "pi_name": "Mirela Cengher",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Effective procedures to enhance learning in individuals with Autism Spectrum Disorder and other developmental disabilities.",
+    "contact_email": "cengher@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-058",
+    "name": "Charissa Cheah",
+    "pi_name": "Charissa Cheah",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Impact of culture on socialization and development of children/adolescents in immigrant, ethnic, and religious minority groups.",
+    "contact_email": "ccheah@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-059",
+    "name": "Christopher Murphy",
+    "pi_name": "Christopher Murphy",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Prevention and treatment of abuse and violence in intimate adult relationships.",
+    "contact_email": "chmurphy@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-060",
+    "name": "Nkiru Nnawulezi",
+    "pi_name": "Nkiru Nnawulezi",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Intimate partner violence, community-based participatory research, survivor empowerment, housing instability.",
+    "contact_email": "nnawulez@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-061",
+    "name": "Steven Pitts",
+    "pi_name": "Steven Pitts",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Longitudinal data analysis of risk/protective factors of young adult substance abuse.",
+    "contact_email": "spitts@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-062",
+    "name": "Raimi Quiton",
+    "pi_name": "Raimi Quiton",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Biopsychosocial factors affecting pain perception; neuroimaging of pain processing.",
+    "contact_email": "rquiton1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-063",
+    "name": "Rebecca Schacht",
+    "pi_name": "Rebecca Schacht",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Intersection of trauma exposure and addictive/health behavior; Director, UMBC Psychology Training Clinic.",
+    "contact_email": "rschacht@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-064",
+    "name": "Shuyan Sun",
+    "pi_name": "Shuyan Sun",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Modeling longitudinal data with complex structures; children's academic development and STEM learning environments.",
+    "contact_email": "suns@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-065",
+    "name": "Shari Waldstein",
+    "pi_name": "Shari Waldstein",
+    "website": "not found",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Relation of cardiovascular risk/disease to cognitive function and brain structure; health disparities.",
+    "contact_email": "waldstei@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-066",
+    "name": "Henrique Barbosa",
+    "pi_name": "Henrique Barbosa",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Tropical rainforest-atmosphere interactions; deforestation impacts on rainfall/cloud formation over the Amazon.",
+    "contact_email": "hbarbosa@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-067",
+    "name": "Brent McBride",
+    "pi_name": "Brent McBride",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Calibration/validation of Earth-observing satellite remote sensors; calibration lead for NASA's PACE mission (JCET).",
+    "contact_email": "mcbride1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-068",
+    "name": "Adriana Rocha Lima",
+    "pi_name": "Adriana Rocha Lima",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Atmospheric aerosol microphysical/optical properties (JCET).",
+    "contact_email": "limadri1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-069",
+    "name": "Andrew Sayer",
+    "pi_name": "Andrew Sayer",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Satellite retrieval of aerosol/cloud/surface properties; Project Science Lead for Atmospheres on PACE mission (JCET/NASA Goddard).",
+    "contact_email": "andrew.sayer@nasa.gov",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-070",
+    "name": "Xiaoguang (Richard) Xu",
+    "pi_name": "Xiaoguang (Richard) Xu",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Satellite remote sensing + Earth system modeling with ML for atmospheric aerosols/clouds.",
+    "contact_email": "xxu@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-071",
+    "name": "Pengwang Zhai",
+    "pi_name": "Pengwang Zhai",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Light scattering by irregular particles; radiative transfer in coupled atmosphere-ocean systems.",
+    "contact_email": "pwzhai@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-072",
+    "name": "Zhibo Zhang",
+    "pi_name": "Zhibo Zhang",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Aerosol-cloud-radiation interactions and climate/air-quality impacts (ACROS group).",
+    "contact_email": "zhibo.zhang@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-073",
+    "name": "Jasper Lewis",
+    "pi_name": "Jasper Lewis",
+    "website": "not found",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "Atmospheric lidar / planetary boundary-layer remote sensing.",
+    "contact_email": "not found",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-074",
+    "name": "Joseph Bennett",
+    "pi_name": "Joseph Bennett",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "materials science"
+    ],
+    "description": "Computational discovery/design of functional materials (DFT, database mining).",
+    "contact_email": "bennettj@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "materials science",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-075",
+    "name": "Chengpeng Chen",
+    "pi_name": "Chengpeng Chen",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "chemistry"
+    ],
+    "description": "Bioanalytical chemistry: LC-MS metabolomics/proteomics, organs-on-a-chip microfluidic models, point-of-care biosensors.",
+    "contact_email": "cpchen@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "chemistry",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-076",
+    "name": "Lisa Kelly",
+    "pi_name": "Lisa Kelly",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "chemistry"
+    ],
+    "description": "Photochemical probes of DNA/protein structure; stimuli-responsive polymer coatings.",
+    "contact_email": "lkelly@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "chemistry",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-077",
+    "name": "Deepak Koirala",
+    "pi_name": "Deepak Koirala",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "molecular biology"
+    ],
+    "description": "RNA structural biology: IRES elements, RNA repeat-expansion disease mechanisms.",
+    "contact_email": "dkoirala@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-078",
+    "name": "Herana Kamal Seneviratne",
+    "pi_name": "Herana Kamal Seneviratne",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "chemistry"
+    ],
+    "description": "Mass-spectrometry-imaging multi-omics for drug metabolism; lipid metabolism in aging/neurodegeneration.",
+    "contact_email": "hsenevi1@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "chemistry",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-079",
+    "name": "Venkatesh Srinivasan",
+    "pi_name": "Venkatesh Srinivasan",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "materials science"
+    ],
+    "description": "Nanomaterials/thin films for optical biosensing; lab-on-a-chip diagnostic devices.",
+    "contact_email": "ven@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "materials science",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-080",
+    "name": "Pengfei Ding",
+    "pi_name": "Pengfei Ding",
+    "website": "not found",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "molecular biology"
+    ],
+    "description": "Molecular biology / biochemistry (named as a SURF research mentor; no verifiable UMBC directory email found).",
+    "contact_email": "not found",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-081",
+    "name": "Janelle Clark",
+    "pi_name": "Janelle Clark",
+    "website": "not found",
+    "department": "Mechanical Engineering",
+    "research_areas": [
+      "robotics"
+    ],
+    "description": "Human-robot interaction; assistive/rehabilitative robotics, haptics, user-centered design.",
+    "contact_email": "janelle.clark@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "robotics",
+    "program_website": "https://me.umbc.edu/me-research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-082",
+    "name": "Ankit Goel",
+    "pi_name": "Ankit Goel",
+    "website": "not found",
+    "department": "Mechanical Engineering",
+    "research_areas": [
+      "controls"
+    ],
+    "description": "Adaptive control and data-driven estimation for autonomous systems.",
+    "contact_email": "ankgoel@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "controls",
+    "program_website": "https://me.umbc.edu/me-research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-083",
+    "name": "Deepa Madan",
+    "pi_name": "Deepa Madan",
+    "website": "not found",
+    "department": "Mechanical Engineering",
+    "research_areas": [
+      "materials science"
+    ],
+    "description": "Thermoelectric materials for flexible/printed electronics; dendrite-growth mitigation in rechargeable batteries.",
+    "contact_email": "deemadan@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "materials science",
+    "program_website": "https://me.umbc.edu/me-research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-084",
+    "name": "Paris von Lockette",
+    "pi_name": "Paris von Lockette",
+    "website": "not found",
+    "department": "Mechanical Engineering",
+    "research_areas": [
+      "robotics",
+      "materials science"
+    ],
+    "description": "Soft robotics; electromagnetically-active composite materials; nonlinear mechanics.",
+    "contact_email": "pvonlock@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "robotics",
+    "program_website": "https://me.umbc.edu/me-research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-085",
+    "name": "Matthias Gobbert",
+    "pi_name": "Matthias Gobbert",
+    "website": "not found",
+    "department": "Mathematics and Statistics",
+    "research_areas": [
+      "computational modeling",
+      "statistics"
+    ],
+    "description": "Numerical analysis, scientific/parallel computing, industrial and computational mathematics.",
+    "contact_email": "gobbert@math.umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computational modeling",
+    "program_website": "https://mathstat.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-086",
+    "name": "Keke Chen",
+    "pi_name": "Keke Chen",
+    "website": "not found",
+    "department": "Computer Science and Electrical Engineering",
+    "research_areas": [
+      "security",
+      "artificial intelligence"
+    ],
+    "description": "Privacy and security of AI, data mining/machine learning, distributed systems.",
+    "contact_email": "kekechen@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "security",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-087",
+    "name": "Rebecca Williams",
+    "pi_name": "Rebecca Williams",
+    "website": "not found",
+    "department": "Computer Science and Electrical Engineering",
+    "research_areas": [
+      "computer vision",
+      "graphics"
+    ],
+    "description": "Immersive media, data visualization, computer vision/graphics, brain-computer interfaces, wearable sensors.",
+    "contact_email": "rmwillia@umbc.edu",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "computer vision",
+    "program_website": "https://www.csee.umbc.edu/research/research-labs/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "ind-088",
+    "name": "Rahuldeb Roy",
+    "pi_name": "Rahuldeb Roy",
+    "website": "not found",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Postdoctoral researcher, Advanced Materials and Electrochemistry for Energy Lab, UMBC; developing polymer electrolytes for flexible zinc batteries.",
+    "contact_email": "not found",
+    "accepting_students": "unknown",
+    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "individual_research"
+  },
+  {
+    "id": "prog-001",
+    "name": "Cell Biology",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "cell biology"
+    ],
+    "description": "Study of cell structure, function, and signaling processes across the Biological Sciences department.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "cell biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-002",
+    "name": "Developmental Biology & Immunology",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "developmental biology",
+      "immunology"
+    ],
+    "description": "Research on organismal development and immune system biology.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "Developmental Biology & Immunology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-003",
+    "name": "Molecular Biology & Genetics",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "molecular biology",
+      "genetics"
+    ],
+    "description": "Gene structure, expression, regulation, and genetic mechanisms.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "molecular biology / genetics",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-004",
+    "name": "Evolutionary Biology",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "evolutionary biology"
+    ],
+    "description": "Evolutionary processes, phylogenetics, and comparative biology.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "evolutionary biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-005",
+    "name": "Neuroscience",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "neuroscience"
+    ],
+    "description": "Study of nervous system structure, function, and behavior.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "neuroscience",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-006",
+    "name": "Computational Biology",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "computational biology"
+    ],
+    "description": "Computational and bioinformatic approaches to biological questions.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "computational biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-007",
+    "name": "Plant Biology",
+    "pi_name": "not found",
+    "website": "https://biology.umbc.edu/research/",
+    "department": "Biological Sciences",
+    "research_areas": [
+      "plant biology"
+    ],
+    "description": "Plant molecular biology, physiology, and genetics.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://biology.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "plant biology",
+    "program_website": "https://biology.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-008",
+    "name": "Biomedical Engineering",
+    "pi_name": "not found",
+    "website": "https://cbee.umbc.edu/research/",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biomedical engineering"
+    ],
+    "description": "Biomaterials for neural tissue engineering, cell therapy/manufacturing, and immune-dysfunction treatment platforms.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://cbee.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "biomedical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-009",
+    "name": "Biochemical Engineering",
+    "pi_name": "not found",
+    "website": "https://cbee.umbc.edu/research/",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "biochemical engineering"
+    ],
+    "description": "Recombinant protein production, gene regulatory network modeling, bioprocess engineering, sensor development.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://cbee.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "biochemical engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-010",
+    "name": "Environmental Engineering",
+    "pi_name": "not found",
+    "website": "https://cbee.umbc.edu/research/",
+    "department": "Chemical, Biochemical and Environmental Engineering",
+    "research_areas": [
+      "environmental engineering"
+    ],
+    "description": "Pharmaceutical fate in wastewater, soil/groundwater remediation, atmospheric chemistry, energy storage.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://cbee.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "environmental engineering",
+    "program_website": "https://cbee.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-011",
+    "name": "AI and Machine Learning",
+    "pi_name": "not found",
+    "website": "https://is.umbc.edu/research/",
+    "department": "Information Systems",
+    "research_areas": [
+      "artificial intelligence",
+      "machine learning"
+    ],
+    "description": "NLP, multi-agent systems, intelligent tutoring, knowledge management, text mining.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://is.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "artificial intelligence / machine learning",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-012",
+    "name": "Data Science",
+    "pi_name": "not found",
+    "website": "https://is.umbc.edu/research/",
+    "department": "Information Systems",
+    "research_areas": [
+      "data science"
+    ],
+    "description": "Database/data-warehouse systems, data mining, privacy-preserving analytics, anomaly detection.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://is.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "data science",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-013",
+    "name": "Health Informatics",
+    "pi_name": "not found",
+    "website": "https://is.umbc.edu/research/",
+    "department": "Information Systems",
+    "research_areas": [
+      "health informatics"
+    ],
+    "description": "IT-based innovation in health services delivery, management, and outcomes.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://is.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "health informatics",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-014",
+    "name": "Human-Centered Computing",
+    "pi_name": "not found",
+    "website": "https://is.umbc.edu/research/",
+    "department": "Information Systems",
+    "research_areas": [
+      "human-computer interaction"
+    ],
+    "description": "Accessible computing, human-information interaction, social computing.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://is.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "human-computer interaction",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-015",
+    "name": "Software Engineering",
+    "pi_name": "not found",
+    "website": "https://is.umbc.edu/research/",
+    "department": "Information Systems",
+    "research_areas": [
+      "software engineering"
+    ],
+    "description": "Software/systems design, development, testing, and maintenance processes.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://is.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "software engineering",
+    "program_website": "https://is.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-016",
+    "name": "Psychology (Undergraduate Research Program)",
+    "pi_name": "not found",
+    "website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "department": "Psychology",
+    "research_areas": [
+      "psychology"
+    ],
+    "description": "Faculty-mentored undergraduate research positions across clinical, developmental, cognitive, and social psychology.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "last_checked": "2026-09-27",
+    "research_program": "psychology",
+    "program_website": "https://psychology.umbc.edu/undergraduate-research-opportunities/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-017",
+    "name": "Atmospheric Physics",
+    "pi_name": "not found",
+    "website": "https://physics.umbc.edu/research/",
+    "department": "Physics",
+    "research_areas": [
+      "atmospheric science"
+    ],
+    "description": "One of four Physics department research areas (with Astrophysics, Condensed Matter Physics, Quantum Optics and Quantum Information Science).",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://physics.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "atmospheric science",
+    "program_website": "https://physics.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-018",
+    "name": "Chemistry and Biochemistry Research",
+    "pi_name": "not found",
+    "website": "https://chemistry.umbc.edu/research/",
+    "department": "Chemistry and Biochemistry",
+    "research_areas": [
+      "chemistry"
+    ],
+    "description": "Twelve research areas incl. analytical chemistry, biochemistry, biophysics, computational theory, drug discovery, nanotechnology, structural biology.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://chemistry.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "chemistry",
+    "program_website": "https://chemistry.umbc.edu/research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-019",
+    "name": "Mechanical Engineering Research",
+    "pi_name": "not found",
+    "website": "https://me.umbc.edu/me-research/",
+    "department": "Mechanical Engineering",
+    "research_areas": [
+      "mechanical engineering"
+    ],
+    "description": "Department-wide mechanical engineering research including biomechanical engineering and engineering education.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://me.umbc.edu/me-research/",
+    "last_checked": "2026-09-27",
+    "research_program": "mechanical engineering",
+    "program_website": "https://me.umbc.edu/me-research/",
+    "record_type": "research_program"
+  },
+  {
+    "id": "prog-020",
+    "name": "Mathematics and Statistics Research Groups",
+    "pi_name": "not found",
+    "website": "https://mathstat.umbc.edu/research/",
+    "department": "Mathematics and Statistics",
+    "research_areas": [
+      "statistics",
+      "probability",
+      "computational modeling"
+    ],
+    "description": "14 research groups spanning numerical analysis, differential equations, mathematical biology, optimization, and statistics.",
+    "contact_email": "not found",
+    "accepting_students": "not found",
+    "source_url": "https://mathstat.umbc.edu/research/",
+    "last_checked": "2026-09-27",
+    "research_program": "statistics",
+    "program_website": "https://mathstat.umbc.edu/research/",
+    "record_type": "research_program"
   }
 ]

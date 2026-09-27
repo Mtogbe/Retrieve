@@ -2,60 +2,67 @@
 
 {% block title %}{{ lab.get("name", "Lab") }} | Retrieve{% endblock %}
 
+{% set NA_FACULTY = "Faculty Information Not Applicable" %}
+{% set NA = "Not Applicable" %}
+
 {% block content %}
 <section class="container py-5">
 
-  <a href="/labs" class="mb-4 d-inline-block">&larr; Back to labs</a>
+<a href="/labs" class="mb-4 d-inline-block">&larr; Back to labs</a>
 
-  <h1>{{ lab.get("name", "Unnamed Lab") }}</h1>
+<h1>{{ lab.get("name", "Unnamed Lab") }}</h1>
 
-  {% if lab.get("pi_name") %}
-    <p><strong>PI:</strong> {{ lab.get("pi_name") }}</p>
-  {% endif %}
+  {% set pi_name = lab.get("pi_name") %}
+<p><strong>PI:</strong> {{ pi_name if pi_name and pi_name|lower != "not found" else NA_FACULTY }}</p>
 
   {% if lab.get("department") %}
-    <p><strong>Department:</strong> {{ lab.get("department") }}</p>
+<p><strong>Department:</strong> {{ lab.get("department") }}</p>
   {% endif %}
 
-  {% if lab.get("description") %}
-    <p>{{ lab.get("description") }}</p>
-  {% endif %}
+  {% set description = lab.get("description") %}
+<p>{{ description if description and description|lower != "not found" else NA_FACULTY }}</p>
 
-  {% if lab.get("research_areas") %}
-    <div class="lab-areas mb-3">
-      {% for area in lab.get("research_areas") %}
-        <span class="area-chip">{{ area }}</span>
+  {% set research_areas = (lab.get("research_areas") or [])|reject("equalto", "not found")|list %}
+<div class="lab-areas mb-3">
+    {% if research_areas %}
+      {% for area in research_areas %}
+<span class="area-chip">{{ area }}</span>
       {% endfor %}
-    </div>
-  {% endif %}
+    {% else %}
+<span class="area-chip">{{ NA }}</span>
+    {% endif %}
+</div>
 
-  {% if lab.get("accepting_students") %}
-    <p>
-      <strong>Accepting students:</strong>
-      {{ lab.get("accepting_students") }}
-    </p>
-  {% endif %}
+  {% set accepting = lab.get("accepting_students") %}
+<p>
+<strong>Accepting students:</strong>
+  {{ accepting if accepting and accepting|lower != "not found" else NA }}
+</p>
 
-  {% if lab.get("contact_email") %}
-    <p>
-      <strong>Contact:</strong>
-      <a href="mailto:{{ lab.get('contact_email') }}">
-        {{ lab.get("contact_email") }}
-      </a>
-    </p>
+  {% set contact_email = lab.get("contact_email") %}
+<p>
+<strong>Contact:</strong>
+  {% if contact_email and contact_email|lower != "not found" %}
+<a href="mailto:{{ contact_email }}">{{ contact_email }}</a>
+  {% else %}
+  {{ NA_FACULTY }}
   {% endif %}
+</p>
 
-  {% set lab_url = lab.get("website") or lab.get("source_url") %}
+  {% set candidate_url = lab.get("website") or lab.get("program_website") or lab.get("source_url") %}
+  {% set lab_url = candidate_url if candidate_url and candidate_url|lower != "not found" and candidate_url.startswith("http") else None %}
 
   {% if lab_url %}
-    <a
-      href="{{ lab_url }}"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn btn-retrieve"
-    >
+<a
+href="{{ lab_url }}"
+target="_blank"
+rel="noopener noreferrer"
+class="btn btn-retrieve"
+>
       Visit lab website
-    </a>
+</a>
+  {% else %}
+<span class="btn btn-retrieve disabled" aria-disabled="true">{{ NA }}</span>
   {% endif %}
 
 </section>
