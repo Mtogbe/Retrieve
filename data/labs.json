@@ -1471,7 +1471,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1490,7 +1489,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1509,7 +1507,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1528,7 +1525,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1547,7 +1543,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1566,7 +1561,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1585,7 +1579,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1604,7 +1597,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1622,7 +1614,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "data science",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1640,7 +1631,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "data science",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1658,7 +1648,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "data science",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1676,7 +1665,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "data science",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1694,14 +1682,13 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "data science",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
     "id": "ind-040",
     "name": "Jianwu Wang",
     "pi_name": "Jianwu Wang",
-    "website": "not found",
+    "website": "https://bdal.umbc.edu/people/jianwu/",
     "department": "Information Systems",
     "research_areas": [
       "data science"
@@ -1709,10 +1696,9 @@
     "description": "Data Science; Health Informatics",
     "contact_email": "jianwu@umbc.edu",
     "accepting_students": "unknown",
-    "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
+    "source_url": "https://bdal.umbc.edu/people/jianwu/",
     "last_checked": "2026-09-27",
     "research_program": "data science",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1730,7 +1716,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "health informatics",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1748,7 +1733,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "health informatics",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1766,7 +1750,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "health informatics",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1784,7 +1767,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "human-computer interaction",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1802,7 +1784,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "human-computer interaction",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1820,7 +1801,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "human-computer interaction",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1838,7 +1818,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "human-computer interaction",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1856,7 +1835,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "human-computer interaction",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1874,7 +1852,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "human-computer interaction",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1892,7 +1869,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "software engineering",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1910,7 +1886,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "software engineering",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1928,7 +1903,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "software engineering",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1946,7 +1920,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "software engineering",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
@@ -1964,7 +1937,6 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "software engineering",
-    "program_website": "https://is.umbc.edu/research/",
     "record_type": "individual_research"
   },
   {
