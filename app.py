@@ -34,20 +34,12 @@ def labs_page():
 
 @app.route("/lab/<lab_id>")
 def lab_page(lab_id):
-    labs = load_labs()
-
-    for lab in labs:
-        if lab.get("id") == lab_id:
-            return jsonify(lab)
-
-    return jsonify({
-        "error": "Lab not found"
-    }), 404
+    return render_template("lab.html")
 
 
 @app.route("/match")
 def match_page():
-    return "Retrieve match page"
+    return render_template("match.html")
 
 
 @app.route("/api/labs")
