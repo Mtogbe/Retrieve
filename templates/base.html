@@ -16,8 +16,8 @@
     <div class="container d-flex align-items-center justify-content-between py-3 gap-3">
       <a class="brand" href="/">RETRIEVE</a>
       <div class="d-flex gap-3 flex-wrap">
-        <a class="nav-tab {% if request.path == '/labs' %}active{% endif %}" href="/labs">labs</a>
-<a class="nav-tab {% if request.path == '/match' %}active{% endif %}" href="/match">resume matches</a>
+        <a class="nav-tab {% if request.path == '/labs' %}active{% endif %}" href="/labs">opportunities</a>
+        <a class="nav-tab {% if request.path == '/match' %}active{% endif %}" href="/match">resume matches</a>
       </div>
     </div>
   </nav>
@@ -28,19 +28,19 @@
 
   <footer class="site-footer">
     <div class="container py-4 small">
-      Lab details come from public UMBC pages, so confirm with the lab before applying. Site is not affiliated with UMBC. 
+      Details come from public UMBC pages, so confirm with the faculty member or program before applying. Site is not affiliated with UMBC.
     </div>
   </footer>
 
-    <button type="button" id="chat-toggle" class="chat-toggle" aria-expanded="false" aria-controls="chat-panel">Ask about labs</button>
+  <button type="button" id="chat-toggle" class="chat-toggle" aria-expanded="false" aria-controls="chat-panel">Ask about research</button>
 
-  <section id="chat-panel" class="chat-panel d-none" aria-label="Lab assistant">
+  <section id="chat-panel" class="chat-panel d-none" aria-label="Research assistant">
     <div class="chat-head">
-      <h2>Ask about labs</h2>
+      <h2>Ask about research</h2>
       <button type="button" id="chat-close" class="btn-close btn-close-white" aria-label="Close chat"></button>
     </div>
     <div id="chat-messages" class="chat-messages" aria-live="polite">
-      <div class="chat-msg chat-ai">Hi! Ask me about UMBC labs, like "Which labs work on climate?" I only answer using the labs listed in Retrieve.</div>
+      <div class="chat-msg chat-ai">Hi! Ask me about UMBC research opportunities, like "Who does research on climate?" I only answer using the labs, faculty, and programs listed in Retrieve.</div>
     </div>
     <form id="chat-form" class="chat-form">
       <label for="chat-input" class="visually-hidden">Your question</label>

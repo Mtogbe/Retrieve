@@ -2,6 +2,14 @@
 
 const NA_FACULTY = "Faculty Information Not Applicable";
 const NA = "Not Applicable";
+const NO_DESC = "Description not available.";
+
+// Readable label for each record_type
+const KIND_LABELS = {
+  lab: "Research lab",
+  individual_research: "Independent research",
+  research_program: "Research program",
+};
 
 // Treat the data pipeline's "not found" placeholder as absent
 function isMissing(value) {
@@ -13,6 +21,11 @@ function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (c) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
   }[c]));
+}
+
+// Type label for a record, defaulting to research lab
+function kindLabel(lab) {
+  return KIND_LABELS[lab.record_type] || KIND_LABELS.lab;
 }
 
 // Fetch JSON and turn API errors into readable messages
@@ -43,16 +56,17 @@ function areaChipsHtml(researchAreas, tagName) {
   return real.map((a) => `<span class="lab-tag">${escapeHtml(a)}</span>`).join("");
 }
 
-// One lab row in the results list
+// One opportunity row in the results list
 function labRow(lab) {
   const areas = areaChipsHtml(lab.research_areas, "button");
   const pi = `<span class="lab-pi">${escapeHtml(isMissing(lab.pi_name) ? NA_FACULTY : lab.pi_name)}</span>`;
-  const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NA_FACULTY : lab.description)}</p>`;
+  const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NO_DESC : lab.description)}</p>`;
   const link = `/lab/${encodeURIComponent(lab.id)}`;
 
   return `
     <li class="lab-row">
       <div class="lab-main">
+        <div class="text-secondary small">${escapeHtml(kindLabel(lab))}</div>
         <h2 class="lab-name"><a href="${link}">${escapeHtml(lab.name)}</a></h2>
         <div class="lab-meta">${pi}<span class="lab-dept">${escapeHtml(lab.department)}</span></div>
         ${desc}
@@ -60,12 +74,12 @@ function labRow(lab) {
       </div>
       <div class="lab-side">
         ${statusHtml(lab.accepting_students)}
-        <a class="btn btn-retrieve" href="${link}">View lab</a>
+        <a class="btn btn-retrieve" href="${link}">View details</a>
       </div>
     </li>`;
 }
 
-// Labs page: search, department filter, area tags
+// Opportunities page: search, department filter, area tags
 function initSearchPage() {
   const input = document.getElementById("search-input");
   const deptSelect = document.getElementById("department-select");
@@ -95,14 +109,14 @@ function initSearchPage() {
       if (myId !== requestId) return;
       console.log("Search failed:", err);
       count.textContent = "";
-      results.innerHTML = `<li class="empty-state">Couldn't load labs: ${escapeHtml(err.message)}. Check that the Flask server is running, then refresh.</li>`;
+      results.innerHTML = `<li class="empty-state">Couldn't load research opportunities: ${escapeHtml(err.message)}. Check that the Flask server is running, then refresh.</li>`;
     }
   }
 
   function renderResults(labs) {
-    count.textContent = `${labs.length} lab${labs.length === 1 ? "" : "s"} found`;
+    count.textContent = `${labs.length} research ${labs.length === 1 ? "opportunity" : "opportunities"} found`;
     if (!labs.length) {
-      results.innerHTML = '<li class="empty-state">No labs match that search. Try a shorter term or choose All departments.</li>';
+      results.innerHTML = '<li class="empty-state">No research opportunities match that search. Try a shorter term or choose All departments.</li>';
       return;
     }
     results.innerHTML = labs.map(labRow).join("");
@@ -121,7 +135,7 @@ function initSearchPage() {
     runSearch();
   }
 
-  // Fill the department dropdown and the area tags from the full lab list
+  // Fill the department dropdown and the area tags from the full list
   async function loadFilters() {
     try {
       const labs = await getJson("/api/labs");
@@ -130,7 +144,7 @@ function initSearchPage() {
       deptSelect.innerHTML = '<option value="">All departments</option>' +
         depts.map((d) => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join("");
 
-      // Count how many labs use each area, then show every tag that's
+      // Count how many records use each area, then show every tag that's
       // actually used (skip the "not found" placeholder so it never
       // becomes a filter chip), most-used first.
       const counts = {};
@@ -162,7 +176,7 @@ function initSearchPage() {
 
   deptSelect.addEventListener("change", runSearch);
 
-  // Clicking a tag on a lab card filters by that area
+  // Clicking a tag on a card filters by that area
   results.addEventListener("click", (e) => {
     const chip = e.target.closest(".area-chip");
     if (chip) setArea(chip.dataset.area);
@@ -201,11 +215,11 @@ function initMatchPage() {
   const emailDraft = document.getElementById("email-draft");
   const copyButton = document.getElementById("email-copy");
 
-  let labsById = {};    // lab id -> full lab record
+  let labsById = {};    // record id -> full record
   let resumeText = "";  // saved for the email draft step
   let emailRequestId = 0;
 
-  // Download all labs once so we can show full details for each match
+  // Download all records once so we can show full details for each match
   async function loadLabs() {
     const labs = await getJson("/api/labs");
     labs.forEach((lab) => { labsById[lab.id] = lab; });
@@ -216,14 +230,14 @@ function initMatchPage() {
     errorBox.classList.remove("d-none");
   }
 
-  // One matched lab, with the AI's reason near the top
+  // One matched opportunity, with the AI's reason near the top
   function matchRow(match) {
     const lab = labsById[match.lab_id];
-    if (!lab) return "";  // never show a lab that isn't in our data
+    if (!lab) return "";  // never show anything that isn't in our data
 
     const tags = areaChipsHtml(lab.research_areas, "span");
     const pi = `<span class="lab-pi">${escapeHtml(isMissing(lab.pi_name) ? NA_FACULTY : lab.pi_name)}</span>`;
-    const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NA_FACULTY : lab.description)}</p>`;
+    const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NO_DESC : lab.description)}</p>`;
     const email = isMissing(lab.contact_email)
       ? `<div class="lab-email">Email: ${escapeHtml(NA_FACULTY)}</div>`
       : `<div class="lab-email">Email: <a href="mailto:${escapeHtml(lab.contact_email)}">${escapeHtml(lab.contact_email)}</a></div>`;
@@ -232,6 +246,7 @@ function initMatchPage() {
     return `
       <li class="lab-row">
         <div class="lab-main">
+          <div class="text-secondary small">${escapeHtml(kindLabel(lab))}</div>
           <h2 class="lab-name"><a href="${link}">${escapeHtml(lab.name)}</a></h2>
           <div class="lab-meta">${pi}<span class="lab-dept">${escapeHtml(lab.department)}</span></div>
           <div class="match-reason"><strong>Why this matches you:</strong> ${escapeHtml(match.reason)}</div>
@@ -241,12 +256,12 @@ function initMatchPage() {
         </div>
         <div class="lab-side">
           ${statusHtml(lab.accepting_students)}
-          <button type="button" class="btn btn-retrieve apply-btn" data-lab-id="${escapeHtml(lab.id)}">Apply</button>
+          <button type="button" class="btn btn-retrieve apply-btn" data-lab-id="${escapeHtml(lab.id)}">Draft email</button>
         </div>
       </li>`;
   }
 
-  // Open the popup and ask the server to draft an email for one lab
+  // Open the popup and ask the server to draft an email for one opportunity
   async function openEmailDraft(labId) {
     const lab = labsById[labId];
     if (!lab) return;
@@ -269,7 +284,7 @@ function initMatchPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ lab_id: labId, resume_text: resumeText }),
       });
-      if (myId !== emailRequestId) return;  // they opened a different lab meanwhile
+      if (myId !== emailRequestId) return;  // they opened a different one meanwhile
       emailDraft.value = res.draft || "";
       emailDraft.classList.remove("d-none");
       copyButton.disabled = false;
@@ -283,7 +298,7 @@ function initMatchPage() {
     }
   }
 
-  // Apply buttons are created after the page loads, so listen on the list that holds them
+  // Draft buttons are created after the page loads, so listen on the list that holds them
   results.addEventListener("click", (e) => {
     const btn = e.target.closest(".apply-btn");
     if (btn) openEmailDraft(btn.dataset.labId);
@@ -366,7 +381,7 @@ function initChat() {
   const send = document.getElementById("chat-send");
 
   let history = [];      // past messages, sent with each new question
-  let labsById = null;   // loaded the first time the AI mentions a lab
+  let labsById = null;   // loaded the first time the AI mentions an opportunity
 
   function openChat() {
     panel.classList.remove("d-none");
@@ -399,7 +414,7 @@ function initChat() {
     return bubble;
   }
 
-  // Show links to the labs the AI mentioned (only ones in our data)
+  // Show links to the opportunities the AI mentioned (only ones in our data)
   async function addLabLinks(bubble, labIds) {
     if (!labIds || !labIds.length) return;
     try {
@@ -417,7 +432,7 @@ function initChat() {
         messages.scrollTop = messages.scrollHeight;
       }
     } catch (err) {
-      console.log("Could not load lab links:", err);
+      console.log("Could not load links:", err);
     }
   }
 

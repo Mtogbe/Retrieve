@@ -10,16 +10,12 @@ robotics
 controls
 computational modeling
 statistics
-probability
 genetics
 molecular biology
 neuroscience
 chemistry
 sustainability
-astrophysics
-climate
 materials science
-bioinformatics
 manufacturing
 computer vision
 graphics
@@ -38,4 +34,3 @@ data science
 health informatics
 atmospheric science
 psychology
-mechanical engineering

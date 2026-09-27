@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 
-{% block title %}Retrieve: get matched to labs{% endblock %}
+{% block title %}Retrieve: get matched to research opportunities{% endblock %}
 
 {% block content %}
 <div id="match-page">
   <section class="hero">
     <div class="container">
-      <h1 class="hero-title">Get matched to labs.</h1>
-      <p class="hero-sub">Upload your resume, add your interests, or both. We'll suggest labs and explain why each one fits you.</p>
+      <h1 class="hero-title">Get matched to research opportunities.</h1>
+      <p class="hero-sub">Upload your resume, add your interests, or both. We'll suggest labs, faculty to do independent research with, and research programs, and explain why each one fits you.</p>
 
       <form id="match-form" class="match-form" novalidate>
         <div class="mb-3">
@@ -28,7 +28,7 @@
   <section class="container py-4">
     <div id="match-loading" class="match-loading d-none">
       <div class="spinner-border" aria-hidden="true"></div>
-      <span>Reading your resume and finding labs...</span>
+      <span>Reading your resume and finding research opportunities...</span>
     </div>
     <h2 id="match-count" class="match-count"></h2>
     <ul id="match-results" class="lab-list"></ul>
@@ -37,7 +37,7 @@
   <dialog id="email-dialog" class="email-dialog" aria-labelledby="email-title">
     <div class="email-dialog-body">
       <div class="email-dialog-head">
-        <h2 id="email-title">Apply by email: your draft</h2>
+        <h2 id="email-title">Reach out by email: your draft</h2>
         <button type="button" id="email-close" class="btn-close" aria-label="Close"></button>
       </div>
       <p id="email-to" class="email-to"></p>
