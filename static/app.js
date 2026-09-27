@@ -1,9 +1,5 @@
 // Retrieve front-end logic (Person 3)
 
-const NA_FACULTY = "Faculty Information Not Applicable";
-const NA = "Not Applicable";
-const NO_DESC = "Description not available.";
-
 // Readable label for each record_type
 const KIND_LABELS = {
   lab: "Research lab",
@@ -11,9 +7,12 @@ const KIND_LABELS = {
   research_program: "Research program",
 };
 
-// Treat the data pipeline's "not found" placeholder as absent
+// Placeholder values that mean the field is really empty
+const PLACEHOLDERS = ["", "not found", "n/a", "none", "not applicable"];
+
+// Treat placeholders as absent so nothing is shown for them
 function isMissing(value) {
-  return value == null || value === "" || String(value).trim().toLowerCase() === "not found";
+  return value == null || PLACEHOLDERS.includes(String(value).trim().toLowerCase());
 }
 
 // Escape text before putting it into HTML
@@ -44,10 +43,10 @@ function statusHtml(value) {
   return "";
 }
 
-// Research area chips, or a single "Not Applicable" chip if none are real
+// Research area chips, or nothing if none are real
 function areaChipsHtml(researchAreas, tagName) {
   const real = (researchAreas || []).filter((a) => !isMissing(a));
-  if (!real.length) return `<span class="area-chip">${escapeHtml(NA)}</span>`;
+  if (!real.length) return "";
   if (tagName === "button") {
     return real
       .map((a) => `<button type="button" class="area-chip" data-area="${escapeHtml(a)}">${escapeHtml(a)}</button>`)
@@ -59,8 +58,8 @@ function areaChipsHtml(researchAreas, tagName) {
 // One opportunity row in the results list
 function labRow(lab) {
   const areas = areaChipsHtml(lab.research_areas, "button");
-  const pi = `<span class="lab-pi">${escapeHtml(isMissing(lab.pi_name) ? NA_FACULTY : lab.pi_name)}</span>`;
-  const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NO_DESC : lab.description)}</p>`;
+  const pi = isMissing(lab.pi_name) ? "" : `<span class="lab-pi">${escapeHtml(lab.pi_name)}</span>`;
+  const desc = isMissing(lab.description) ? "" : `<p class="lab-desc">${escapeHtml(lab.description)}</p>`;
   const link = `/lab/${encodeURIComponent(lab.id)}`;
 
   return `
@@ -236,10 +235,10 @@ function initMatchPage() {
     if (!lab) return "";  // never show anything that isn't in our data
 
     const tags = areaChipsHtml(lab.research_areas, "span");
-    const pi = `<span class="lab-pi">${escapeHtml(isMissing(lab.pi_name) ? NA_FACULTY : lab.pi_name)}</span>`;
-    const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NO_DESC : lab.description)}</p>`;
+    const pi = isMissing(lab.pi_name) ? "" : `<span class="lab-pi">${escapeHtml(lab.pi_name)}</span>`;
+    const desc = isMissing(lab.description) ? "" : `<p class="lab-desc">${escapeHtml(lab.description)}</p>`;
     const email = isMissing(lab.contact_email)
-      ? `<div class="lab-email">Email: ${escapeHtml(NA_FACULTY)}</div>`
+      ? ""
       : `<div class="lab-email">Email: <a href="mailto:${escapeHtml(lab.contact_email)}">${escapeHtml(lab.contact_email)}</a></div>`;
     const link = `/lab/${encodeURIComponent(lab.id)}`;
 
@@ -269,7 +268,7 @@ function initMatchPage() {
     const myId = ++emailRequestId;
     emailTo.textContent = !isMissing(lab.contact_email)
       ? `To: ${!isMissing(lab.pi_name) ? lab.pi_name : lab.name} (${lab.contact_email})`
-      : `For: ${lab.name} (${NA_FACULTY})`;
+      : `For: ${lab.name}`;
     emailError.classList.add("d-none");
     emailDraft.classList.add("d-none");
     emailDraft.value = "";
