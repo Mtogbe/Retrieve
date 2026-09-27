@@ -1,5 +1,13 @@
 // Retrieve front-end logic (Person 3)
 
+const NA_FACULTY = "Faculty Information Not Applicable";
+const NA = "Not Applicable";
+
+// Treat the data pipeline's "not found" placeholder as absent
+function isMissing(value) {
+  return value == null || value === "" || String(value).trim().toLowerCase() === "not found";
+}
+
 // Escape text before putting it into HTML
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (c) => ({
@@ -16,20 +24,30 @@ async function getJson(url, options) {
   return data;
 }
 
-// Accepting-students status line
+// Accepting-students status line - only shown when we actually know the answer
 function statusHtml(value) {
   if (value === "yes") return '<span class="status status-yes">Taking students</span>';
   if (value === "no") return '<span class="status status-no">Not taking students</span>';
-  return '<span class="status">Ask about openings</span>';
+  return "";
+}
+
+// Research area chips, or a single "Not Applicable" chip if none are real
+function areaChipsHtml(researchAreas, tagName) {
+  const real = (researchAreas || []).filter((a) => !isMissing(a));
+  if (!real.length) return `<span class="area-chip">${escapeHtml(NA)}</span>`;
+  if (tagName === "button") {
+    return real
+      .map((a) => `<button type="button" class="area-chip" data-area="${escapeHtml(a)}">${escapeHtml(a)}</button>`)
+      .join("");
+  }
+  return real.map((a) => `<span class="lab-tag">${escapeHtml(a)}</span>`).join("");
 }
 
 // One lab row in the results list
 function labRow(lab) {
-  const areas = (lab.research_areas || [])
-    .map((a) => `<button type="button" class="area-chip" data-area="${escapeHtml(a)}">${escapeHtml(a)}</button>`)
-    .join("");
-  const pi = lab.pi_name ? `<span class="lab-pi">${escapeHtml(lab.pi_name)}</span>` : "";
-  const desc = lab.description ? `<p class="lab-desc">${escapeHtml(lab.description)}</p>` : "";
+  const areas = areaChipsHtml(lab.research_areas, "button");
+  const pi = `<span class="lab-pi">${escapeHtml(isMissing(lab.pi_name) ? NA_FACULTY : lab.pi_name)}</span>`;
+  const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NA_FACULTY : lab.description)}</p>`;
   const link = `/lab/${encodeURIComponent(lab.id)}`;
 
   return `
@@ -112,14 +130,17 @@ function initSearchPage() {
       deptSelect.innerHTML = '<option value="">All departments</option>' +
         depts.map((d) => `<option value="${escapeHtml(d)}">${escapeHtml(d)}</option>`).join("");
 
-      // Count how many labs use each area, then keep the 12 most common
+      // Count how many labs use each area, then show every tag that's
+      // actually used (skip the "not found" placeholder so it never
+      // becomes a filter chip), most-used first.
       const counts = {};
       labs.forEach((lab) => {
         (lab.research_areas || []).forEach((a) => {
+          if (isMissing(a)) return;
           counts[a] = (counts[a] || 0) + 1;
         });
       });
-      topAreas = Object.keys(counts).sort((a, b) => counts[b] - counts[a]).slice(0, 12);
+      topAreas = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
       renderAreaTags();
     } catch (err) {
       console.log("Could not load filters:", err);
@@ -200,13 +221,12 @@ function initMatchPage() {
     const lab = labsById[match.lab_id];
     if (!lab) return "";  // never show a lab that isn't in our data
 
-    const tags = (lab.research_areas || [])
-      .map((a) => `<span class="lab-tag">${escapeHtml(a)}</span>`).join("");
-    const pi = lab.pi_name ? `<span class="lab-pi">${escapeHtml(lab.pi_name)}</span>` : "";
-    const desc = lab.description ? `<p class="lab-desc">${escapeHtml(lab.description)}</p>` : "";
-    const email = lab.contact_email
-      ? `<div class="lab-email">Email: <a href="mailto:${escapeHtml(lab.contact_email)}">${escapeHtml(lab.contact_email)}</a></div>`
-      : "";
+    const tags = areaChipsHtml(lab.research_areas, "span");
+    const pi = `<span class="lab-pi">${escapeHtml(isMissing(lab.pi_name) ? NA_FACULTY : lab.pi_name)}</span>`;
+    const desc = `<p class="lab-desc">${escapeHtml(isMissing(lab.description) ? NA_FACULTY : lab.description)}</p>`;
+    const email = isMissing(lab.contact_email)
+      ? `<div class="lab-email">Email: ${escapeHtml(NA_FACULTY)}</div>`
+      : `<div class="lab-email">Email: <a href="mailto:${escapeHtml(lab.contact_email)}">${escapeHtml(lab.contact_email)}</a></div>`;
     const link = `/lab/${encodeURIComponent(lab.id)}`;
 
     return `
@@ -232,9 +252,9 @@ function initMatchPage() {
     if (!lab) return;
 
     const myId = ++emailRequestId;
-    emailTo.textContent = lab.contact_email
-      ? `To: ${lab.pi_name || lab.name} (${lab.contact_email})`
-      : `For: ${lab.name}`;
+    emailTo.textContent = !isMissing(lab.contact_email)
+      ? `To: ${!isMissing(lab.pi_name) ? lab.pi_name : lab.name} (${lab.contact_email})`
+      : `For: ${lab.name} (${NA_FACULTY})`;
     emailError.classList.add("d-none");
     emailDraft.classList.add("d-none");
     emailDraft.value = "";

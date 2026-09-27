@@ -42,7 +42,7 @@ Rules:
 - For the student's side of each reason, use the words the resume or interests actually use. Never rename a student's skill or project with the lab's terms. For example, if the resume says "satellite imagery", do not call it "machine vision" or "sensor data".
 - Do not hedge. If a lab only fits with words like could, might, or may, leave it out.
 - Every reason must be true using only the resume, interests, and lab data. Do not use outside knowledge.
-- Return up to 8 labs. Return fewer, even 1 or 2, if only a few fit. Never pad the list.
+- Return every lab that genuinely fits, in any number. Never pad the list with weak or hedged fits just to include more.
 - Each reason is one short sentence. Name the specific item from the resume or interests and the specific part of the lab's research it overlaps with.
 - Only mention items that literally appear in the resume or interests. Never invent or exaggerate.
 - Describe the overlap using only what the lab's data says. Never claim a lab uses a specific tool, language, or method unless its data says so.
@@ -235,7 +235,7 @@ def _fallback_matches(labs, resume_text, interests_text):
     if not kws:
         return []
     results = []
-    for lab in filter_by_interests(labs, text)[:8]:
+    for lab in filter_by_interests(labs, text):
         hit = [a for a in _areas(lab) if any(_has(k, _words(a)) for k in kws)]
         if hit:
             reason = phrase + " this lab's work in " + ", ".join(hit) + "."
@@ -266,7 +266,9 @@ def match_labs(labs, resume_text, interests_text):
     )
 
     try:
-        text = _ask(MODEL, MATCH_SYSTEM, [{"role": "user", "content": user_msg}], 3000)
+        # no result-count cap, so give the model enough room to return
+        # every lab that genuinely fits without truncating mid-response
+        text = _ask(MODEL, MATCH_SYSTEM, [{"role": "user", "content": user_msg}], 8000)
         data = _parse_json(text)
         if not data:
             print("match_labs could not parse:", text[:300])
@@ -288,7 +290,7 @@ def match_labs(labs, resume_text, interests_text):
                 else:
                     print("match_labs dropped:", m)
             if matches:
-                return matches[:8]
+                return matches
             print("match_labs got no valid matches, using fallback")
     except Exception as e:
         print("match_labs failed:", e)

@@ -25,3 +25,17 @@ computer vision
 graphics
 photonics
 signal processing
+cell biology
+developmental biology
+immunology
+evolutionary biology
+plant biology
+computational biology
+biomedical engineering
+biochemical engineering
+environmental engineering
+data science
+health informatics
+atmospheric science
+psychology
+mechanical engineering
