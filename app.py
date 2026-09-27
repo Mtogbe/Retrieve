@@ -1,7 +1,7 @@
 import json
 import os
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
 from ai import extract_resume_text, match_labs, chat, draft_email
 
@@ -23,10 +23,13 @@ def load_labs():
 
     return labs
 
-
 @app.route("/")
 def home():
-    return "Retrieve backend is running!"
+    return render_template("index.html")
+
+@app.route("/labs")
+def labs_page():
+    return render_template("index.html")
 
 
 @app.route("/lab/<lab_id>")
