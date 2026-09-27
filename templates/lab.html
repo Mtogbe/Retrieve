@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}{{ lab.get("name", "Lab") }} | Retrieve{% endblock %}
+
+{% block content %}
+<section class="container py-5">
+
+  <a href="/labs" class="mb-4 d-inline-block">&larr; Back to labs</a>
+
+  <h1>{{ lab.get("name", "Unnamed Lab") }}</h1>
+
+  {% if lab.get("pi_name") %}
+    <p><strong>PI:</strong> {{ lab.get("pi_name") }}</p>
+  {% endif %}
+
+  {% if lab.get("department") %}
+    <p><strong>Department:</strong> {{ lab.get("department") }}</p>
+  {% endif %}
+
+  {% if lab.get("description") %}
+    <p>{{ lab.get("description") }}</p>
+  {% endif %}
+
+  {% if lab.get("research_areas") %}
+    <div class="lab-areas mb-3">
+      {% for area in lab.get("research_areas") %}
+        <span class="area-chip">{{ area }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% if lab.get("accepting_students") %}
+    <p>
+      <strong>Accepting students:</strong>
+      {{ lab.get("accepting_students") }}
+    </p>
+  {% endif %}
+
+  {% if lab.get("contact_email") %}
+    <p>
+      <strong>Contact:</strong>
+      <a href="mailto:{{ lab.get('contact_email') }}">
+        {{ lab.get("contact_email") }}
+      </a>
+    </p>
+  {% endif %}
+
+  {% set lab_url = lab.get("website") or lab.get("source_url") %}
+
+  {% if lab_url %}
+    <a
+      href="{{ lab_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn btn-retrieve"
+    >
+      Visit lab website
+    </a>
+  {% endif %}
+
+</section>
+{% endblock %}
