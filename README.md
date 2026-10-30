@@ -10,9 +10,9 @@ Research at UMBC is hard to find. Most students commute. They leave right after 
 
 ## What Retrieve does
 
-- Puts UMBC research labs in one searchable directory
-- Filters labs by the research interests you type in
-- Matches your resume to labs with AI and explains why each one fits
+- Puts UMBC research opportunities in one searchable directory
+- Filters by the research interests you type in
+- Matches your resume to opportunities with AI and explains why each one fits
 - Answers questions about labs with a chatbot that only uses our lab data
 - Drafts a first email to a lab's professor
 

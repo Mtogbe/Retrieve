@@ -95,7 +95,7 @@
     "id": "cs-006",
     "name": "DREAM - Discovery, Research, and Experimental Analysis of Malware Lab",
     "pi_name": "Dr. Charles Nicholas",
-    "website": "https://umbc-dream-lab.github.io/",
+    "website": "not found",
     "department": "Computer Science",
     "research_areas": [
       "machine learning",
@@ -611,7 +611,7 @@
     ],
     "description": "Builds computational methods to study disease mutations and protein interactions, including databases of disease mutations mapped to protein domains. Undergraduate teams from biology and computer science build text-mining tools that extract mutations and protein interactions from biomedical literature. Some projects require no programming experience.",
     "contact_email": "mkann@umbc.edu",
-    "accepting_students": "yes",
+    "accepting_students": "unknown",
     "source_url": "https://biology.umbc.edu/kann-lab/",
     "last_checked": "2026-09-27",
     "research_program": "computational biology",
@@ -738,7 +738,7 @@
     "id": "lab-116",
     "name": "Mendelson Lab",
     "pi_name": "Tamra Mendelson",
-    "website": "https://biology.umbc.edu/pending-deletion/mendelson-lab/",
+    "website": "https://www.mendelsonlab.net/",
     "department": "Biological Sciences",
     "research_areas": [
       "evolutionary biology",
@@ -787,7 +787,7 @@
     ],
     "description": "Studies avian evolution, ecology, behavior, and conservation, with a focus on New World orioles. Recent work covers female coloration, female song, and the Puerto Rican Oriole. Prospective students are invited to email about the Puerto Rico work or related projects.",
     "contact_email": "omland@umbc.edu",
-    "accepting_students": "yes",
+    "accepting_students": "unknown",
     "source_url": "https://omlandlab.umbc.edu/",
     "last_checked": "2026-09-27",
     "research_program": "evolutionary biology",
@@ -954,7 +954,7 @@
     "id": "lab-128",
     "name": "Lamas Lab",
     "pi_name": "Zachary Lamas",
-    "website": "not found",
+    "website": "https://www.mdbeekeepers.org/lamas-bee-lab/",
     "department": "Biological Sciences",
     "research_areas": [
       "evolutionary biology"
@@ -1492,22 +1492,22 @@
     "record_type": "individual_research"
   },
   {
-    "id": "ind-029",
-    "name": "Md Osman Gani",
+    "id": "lab-152",
+    "name": "CAIL - Causal Artificial Intelligence Lab",
     "pi_name": "Md Osman Gani",
-    "website": "not found",
+    "website": "https://causalai.umbc.edu/",
     "department": "Information Systems",
     "research_areas": [
       "artificial intelligence",
       "machine learning"
     ],
-    "description": "AI and Machine Learning; Data Science",
+    "description": "researches causal inference and machine learning to develop reliable, interpretable, and generalizable AI systems. Its work focuses on identifying causal relationships in data, explainable AI, and decision-making, with applications in healthcare, climate science, and accessible transportation.",
     "contact_email": "mogani@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "artificial intelligence / machine learning",
-    "record_type": "individual_research"
+    "record_type": "lab"
   },
   {
     "id": "ind-030",
