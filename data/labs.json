@@ -273,23 +273,6 @@
     "record_type": "lab"
   },
   {
-    "id": "ce-001",
-    "name": "ECLIPSE Cluster",
-    "pi_name": "Dr. Nilanjan Banerjee",
-    "department": "Computer Engineering",
-    "research_areas": [
-      "robotics",
-      "security"
-    ],
-    "description": "Comprises groups with shared laboratories, projects, and students: the Mobile, Pervasive, & Sensor Systems Laboratory led by Dr. Nilanjan Banerjee, and the Covail Analog & Digital Systems Research Laboratory, led by Dr. Ryan Robucci (robucci@umbc.edu).",
-    "contact_email": "nilanb@umbc.edu",
-    "accepting_students": "unknown",
-    "source_url": "https://www.csee.umbc.edu/research/research-labs/",
-    "last_checked": "2026-09-26",
-    "research_program": "Robotics",
-    "record_type": "lab"
-  },
-  {
     "id": "ce-002",
     "name": "ESNET - Embedded Systems and Networks Laboratory",
     "pi_name": "Dr. Mohamed Younis",
@@ -1007,19 +990,19 @@
   {
     "id": "lab-131",
     "name": "AMEE Lab",
-    "pi_name": "Özgür Çapraz",
+    "pi_name": "Dr. Özgür Çapraz",
     "website": "not found",
     "department": "Chemical, Biochemical and Environmental Engineering",
     "research_areas": [
       "environmental engineering"
     ],
-    "description": "not found",
+    "description": "researches advanced materials for energy storage and conversion. Its work focuses on improving battery performance, safety, efficiency, and affordability through research on lithium-ion, sodium-ion, potassium-ion, lithium-oxygen batteries, and solid electrolytes.",
     "contact_email": "capraz@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "environmental engineering",
-    "program_website": "https://cbee.umbc.edu/research/",
+    "program_website": "https://amee.umbc.edu/",
     "record_type": "lab"
   },
   {
@@ -1369,25 +1352,25 @@
     "id": "ind-011",
     "name": "Tracy Smith",
     "pi_name": "Tracy Smith",
-    "website": "not found",
+    "website": "https://biology.umbc.edu/faculty/person/PI87452/",
     "department": "Biological Sciences",
     "research_areas": [
       "evolutionary biology"
     ],
-    "description": "Teaching Professor",
+    "description": "Tracy Smith is a Teaching Professor in UMBC’s Department of Biological Sciences and leads the DOGS Lab (Diversity, Origins, and Genomic Studies of Dogs). Her research focuses on canine genetics, evolution, and conservation, particularly the genetic diversity and health of Arctic dog breeds. She uses genomic technologies and population genetics to investigate dog domestication, breed-related genetic disorders, and genetic risk factors for epilepsy.",
     "contact_email": "tsmith6@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "evolutionary biology",
-    "program_website": "https://biology.umbc.edu/evolutionary-biology/",
+    "program_website": "https://biology.umbc.edu/faculty/person/PI87452/",
     "record_type": "individual_research"
   },
   {
     "id": "ind-014",
     "name": "Ivan Erill",
     "pi_name": "Ivan Erill",
-    "website": "not found",
+    "website": "https://scholar.google.com/citations?user=T1I1sNAAAAAJ&hl=en",
     "department": "Biological Sciences",
     "research_areas": [
       "computational biology"
@@ -1398,7 +1381,7 @@
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
     "last_checked": "2026-09-27",
     "research_program": "computational biology",
-    "program_website": "https://biology.umbc.edu/computational-biology/",
+    "program_website": "https://www.researchgate.net/profile/Ivan-Erill",
     "record_type": "individual_research"
   },
   {
@@ -1959,14 +1942,15 @@
   },
   {
     "id": "ind-057",
-    "name": "Mirela Cengher",
+    "name": "Dr. Mirela Cengher",
     "pi_name": "Mirela Cengher",
     "website": "not found",
     "department": "Psychology",
     "research_areas": [
+      "autism spectrum disorder",
       "psychology"
     ],
-    "description": "Effective procedures to enhance learning in individuals with Autism Spectrum Disorder and other developmental disabilities.",
+    "description": "Develops procedures to enhance learning in individuals with Autism Spectrum Disorder and other developmental disabilities. Studies variables that influence language development and complex skills such as concept formation, and works on functional assessment and treatment of problem behavior. Undergraduates help with coding and analyzing data, literature reviews, manuscripts, and conference posters.",
     "contact_email": "cengher@umbc.edu",
     "accepting_students": "unknown",
     "source_url": "web_scraping_document_hackUMBC2026 (user-compiled UMBC department pages)",
